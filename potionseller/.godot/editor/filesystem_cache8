@@ -1,0 +1,31 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1728166108
+::res://cenas/::1728165880
+ingrediente.tscn::PackedScene::6227799388210476106::1728165880::0::1::::<><>::
+jogo.gd::GDScript::-1::1728062850::0::1::::<>Node2D<>::
+jogo.tscn::PackedScene::707220392395352700::1728165880::0::1::::<><>::res://cenas/jogo.gd<>uid://b8tm4gd6a84el::::res://sprites/v3.png<>res://scripts/voltar_button.gd
+menu.tscn::PackedScene::4139118370677546283::1728165880::0::1::::<><>::uid://dlcesr4ukb6bh::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>res://scripts/sair_button.gd
+opcoes.tscn::PackedScene::5697341940114929448::1728165880::0::1::::<><>::uid://dlcesr4ukb6bh::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/voltar_button.gd
+::res://fontes/::1728166149
+::res://fontes/old-english-gothic-pixel-font/::1728166142
+info.txt::TextFile::-1::1723292438::0::1::::<><>::
+OldEnglishGothicPixelRegular-gx1jp.otf::FontFile::6667742781593031609::1723292438::1728166150::1::::<><>::
+OldEnglishGothicPixelRegular-ow2Bo.ttf::FontFile::1918380799803353998::1723292438::1728166150::1::::<><>::
+::res://fontes/old-english-gothic-pixel-font/misc/::1728166142
+license-9746.txt::TextFile::-1::1723292438::0::1::::<><>::
+readme-3e01.txt::TextFile::-1::1723292438::0::1::::<><>::
+::res://fontes/pixeloid-font/::1728166146
+info.txt::TextFile::-1::1723294412::0::1::::<><>::
+PixeloidMono-d94EV.ttf::FontFile::5090914053156749649::1723294412::1728166150::1::::<><>::
+PixeloidSans-mLxMm.ttf::FontFile::8668377035099788073::1723294412::1728166150::1::::<><>::
+PixeloidSansBold-PKnYd.ttf::FontFile::1267150055018218579::1723294412::1728166150::1::::<><>::
+::res://fontes/pixeloid-font/misc/::1728166146
+License.txt::TextFile::-1::1723294412::0::1::::<><>::
+::res://scripts/::1728049227
+jogar_button.gd::GDScript::-1::1728049217::0::1::::<>Button<>::
+opcoes_button.gd::GDScript::-1::1728049226::0::1::::<>Button<>::
+sair_button.gd::GDScript::-1::1728048740::0::1::::<>Button<>::
+voltar_button.gd::GDScript::-1::1728049193::0::1::::<>Button<>::
+::res://sprites/::1728164790
+Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg::CompressedTexture2D::7935744037485560461::1728164761::1728164790::1::::<><>::
+v3.png::CompressedTexture2D::4742656414196087983::1724473213::1728049322::1::::<><>::

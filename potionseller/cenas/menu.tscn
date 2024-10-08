@@ -1,0 +1,85 @@
+[gd_scene load_steps=9 format=3 uid="uid://by8aw7duxspx8"]
+
+[ext_resource type="Texture2D" uid="uid://dlcesr4ukb6bh" path="res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg" id="1_b3qkb"]
+[ext_resource type="Script" path="res://scripts/jogar_button.gd" id="1_ugkrb"]
+[ext_resource type="Script" path="res://scripts/opcoes_button.gd" id="2_1ebod"]
+[ext_resource type="FontFile" uid="uid://c1850qmeh1v6h" path="res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf" id="2_65tvk"]
+[ext_resource type="FontFile" uid="uid://cescu06r2nw5f" path="res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf" id="2_x20gm"]
+[ext_resource type="Script" path="res://scripts/sair_button.gd" id="3_kqdxb"]
+
+[sub_resource type="Gradient" id="Gradient_pmqp2"]
+offsets = PackedFloat32Array(0, 0.227273)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ksmi0"]
+gradient = SubResource("Gradient_pmqp2")
+width = 1080
+height = 1080
+fill_from = Vector2(0.334862, 0.243119)
+
+[node name="Menu" type="Node2D"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_top = -4.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 8
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(1266, 462.5)
+scale = Vector2(1.27734, 1.22363)
+texture = ExtResource("1_b3qkb")
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+texture = SubResource("GradientTexture2D_ksmi0")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 91.0
+offset_top = 721.0
+offset_right = 763.0
+offset_bottom = 1170.0
+size_flags_horizontal = 0
+size_flags_vertical = 8
+theme_override_constants/separation = 60
+
+[node name="JogarButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(240, 40)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_x20gm")
+theme_override_font_sizes/font_size = 24
+text = "Jogar"
+script = ExtResource("1_ugkrb")
+
+[node name="OpcoesButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(220, 40)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_x20gm")
+theme_override_font_sizes/font_size = 24
+text = "Opções"
+script = ExtResource("2_1ebod")
+
+[node name="SairButton" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(220, 40)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_x20gm")
+theme_override_font_sizes/font_size = 24
+text = "Sair"
+script = ExtResource("3_kqdxb")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 127.0
+offset_top = 133.0
+offset_right = 708.0
+offset_bottom = 520.0
+theme_override_fonts/font = ExtResource("2_65tvk")
+theme_override_font_sizes/font_size = 160
+text = "Potion
+   Seller"
+
+[connection signal="pressed" from="VBoxContainer/JogarButton" to="VBoxContainer/JogarButton" method="_on_pressed"]
+[connection signal="pressed" from="VBoxContainer/OpcoesButton" to="VBoxContainer/OpcoesButton" method="_on_pressed"]
+[connection signal="pressed" from="VBoxContainer/SairButton" to="VBoxContainer/SairButton" method="_on_pressed"]

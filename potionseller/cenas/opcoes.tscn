@@ -1,0 +1,73 @@
+[gd_scene load_steps=6 format=3 uid="uid://cnf3nidp7g8ka"]
+
+[ext_resource type="Texture2D" uid="uid://dlcesr4ukb6bh" path="res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg" id="1_aob1m"]
+[ext_resource type="Script" path="res://scripts/voltar_button.gd" id="1_lrfd7"]
+[ext_resource type="FontFile" uid="uid://cescu06r2nw5f" path="res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf" id="2_gg022"]
+
+[sub_resource type="Gradient" id="Gradient_gna8c"]
+offsets = PackedFloat32Array(0, 0.227273)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_anshl"]
+gradient = SubResource("Gradient_gna8c")
+width = 1080
+height = 1080
+fill_from = Vector2(0.334862, 0.243119)
+
+[node name="Opcoes" type="Node2D"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_top = -4.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+size_flags_horizontal = 8
+
+[node name="Sprite2D" type="Sprite2D" parent="MarginContainer"]
+position = Vector2(1266, 462.5)
+scale = Vector2(1.27734, 1.22363)
+texture = ExtResource("1_aob1m")
+
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+texture = SubResource("GradientTexture2D_anshl")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="VoltarButton" type="Button" parent="."]
+custom_minimum_size = Vector2(250, 40)
+offset_left = 242.0
+offset_top = 921.0
+offset_right = 549.0
+offset_bottom = 961.0
+theme_override_fonts/font = ExtResource("2_gg022")
+theme_override_font_sizes/font_size = 24
+text = "Voltar"
+script = ExtResource("1_lrfd7")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 102.0
+offset_top = 259.0
+offset_right = 683.0
+offset_bottom = 681.0
+theme_override_constants/separation = 60
+
+[node name="LabelVolumeMusica" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Volume da música"
+horizontal_alignment = 1
+
+[node name="VolumeMusica" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+value = 80.0
+
+[node name="LabelVolumeSFX" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Volume dos efeitos sonoros"
+horizontal_alignment = 1
+
+[node name="VolumeSFX" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+value = 80.0
+
+[connection signal="pressed" from="VoltarButton" to="VoltarButton" method="_on_pressed"]

@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://kct206fg1f37"]
+
+[ext_resource type="Script" path="res://cenas/jogo.gd" id="1_0diya"]
+[ext_resource type="Texture2D" uid="uid://b8tm4gd6a84el" path="res://sprites/v3.png" id="1_30wlu"]
+[ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
+
+[node name="Jogo" type="Node2D"]
+script = ExtResource("1_0diya")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("1_30wlu")
+
+[node name="Window" type="Window" parent="."]
+initial_position = 1
+size = Vector2i(350, 200)
+visible = false
+borderless = true
+
+[node name="Camera2D" type="Camera2D" parent="Window"]
+
+[node name="VoltarButton" type="Button" parent="Window/Camera2D"]
+custom_minimum_size = Vector2(250, 40)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -20.0
+offset_right = 125.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Voltar"
+script = ExtResource("2_w0e0k")
+
+[connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
+[connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]

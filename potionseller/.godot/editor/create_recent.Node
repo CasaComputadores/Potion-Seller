@@ -1,0 +1,10 @@
+Label
+TextEdit
+Sprite2D
+VBoxContainer
+HSlider
+Camera2D
+Window
+Button
+TextureRect
+MarginContainer

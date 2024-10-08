@@ -1,2 +1,2 @@
 # Potion-Seller
-Desgraça
+Este é um repositório para o projeto final da disciplina de programação para jogos

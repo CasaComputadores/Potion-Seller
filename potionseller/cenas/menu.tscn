@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://by8aw7duxspx8"]
 
-[ext_resource type="Texture2D" uid="uid://dlcesr4ukb6bh" path="res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg" id="1_b3qkb"]
+[ext_resource type="Texture2D" uid="uid://dcx0tmve0dnvf" path="res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg" id="1_b3qkb"]
 [ext_resource type="Script" path="res://scripts/jogar_button.gd" id="1_ugkrb"]
 [ext_resource type="Script" path="res://scripts/opcoes_button.gd" id="2_1ebod"]
 [ext_resource type="FontFile" uid="uid://c1850qmeh1v6h" path="res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf" id="2_65tvk"]

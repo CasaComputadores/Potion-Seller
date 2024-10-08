@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://kct206fg1f37"]
+[gd_scene load_steps=5 format=3 uid="uid://kct206fg1f37"]
 
-[ext_resource type="Script" path="res://cenas/jogo.gd" id="1_0diya"]
+[ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
 [ext_resource type="Texture2D" uid="uid://b8tm4gd6a84el" path="res://sprites/v3.png" id="1_30wlu"]
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
+[ext_resource type="PackedScene" uid="uid://ci7t0yhmrff4b" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
 
 [node name="Jogo" type="Node2D"]
 script = ExtResource("1_0diya")
@@ -38,6 +39,9 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Voltar"
 script = ExtResource("2_w0e0k")
+
+[node name="caldeirao" parent="." instance=ExtResource("4_pva1l")]
+position = Vector2(1729, 905)
 
 [connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
 [connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]

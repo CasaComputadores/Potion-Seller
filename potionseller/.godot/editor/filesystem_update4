@@ -1,4 +1,10 @@
+res://cenas/jogo.tscn
+res://cenas/jogo.gd
 res://cenas/menu.tscn
 res://cenas/opcoes.tscn
-res://cenas/jogo.tscn
 res://cenas/ingrediente.tscn
+res://cenas/ingrediente.gd
+res://scripts/ingrediente.gd
+res://cenas/caldeirao.tscn
+res://scripts/caldeirao.gd
+res://scripts/area_2d.gd

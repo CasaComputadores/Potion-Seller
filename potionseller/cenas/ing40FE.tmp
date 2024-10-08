@@ -13,10 +13,12 @@ script = ExtResource("1_kt4m5")
 scale = Vector2(4, 4)
 texture = ExtResource("2_o36pu")
 
-[node name="Area2D" type="Area2D" parent="Erva"]
+[node name="Area2D" type="Area2D" parent="Erva" groups=["hovered"]]
 scale = Vector2(0.25, 0.25)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Erva/Area2D"]
 shape = SubResource("CircleShape2D_xmtqr")
 
 [connection signal="input_event" from="Erva/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="mouse_entered" from="Erva/Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Erva/Area2D" to="." method="_on_area_2d_mouse_exited"]

@@ -1,6 +1,8 @@
+CollisionShape2D
+Area2D
+Sprite2D
 Label
 TextEdit
-Sprite2D
 VBoxContainer
 HSlider
 Camera2D

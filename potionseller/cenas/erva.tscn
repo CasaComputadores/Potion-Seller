@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://cuy17fu2hjc6m"]
 
-[ext_resource type="Script" path="res://scripts/ingrediente.gd" id="1_kt4m5"]
-[ext_resource type="Texture2D" uid="uid://b7770sr27unod" path="res://sprites/erva.png" id="2_o36pu"]
+[ext_resource type="Script" path="res://scripts/ingrediente.gd" id="1_vf17v"]
+[ext_resource type="Texture2D" uid="uid://b7770sr27unod" path="res://sprites/erva.png" id="2_v036s"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xmtqr"]
 radius = 59.0085
 
-[node name="Ingrediente" type="Node2D"]
-script = ExtResource("1_kt4m5")
+[node name="erva" type="Node2D" groups=["ingredientes"]]
+script = ExtResource("1_vf17v")
 
 [node name="Erva" type="Sprite2D" parent="."]
 scale = Vector2(4, 4)
-texture = ExtResource("2_o36pu")
+texture = ExtResource("2_v036s")
 
 [node name="Area2D" type="Area2D" parent="Erva"]
 scale = Vector2(0.25, 0.25)

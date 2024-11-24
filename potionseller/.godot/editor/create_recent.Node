@@ -1,6 +1,8 @@
 CollisionShape2D
 Area2D
 Sprite2D
+TextureRect
+MarginContainer
 Label
 TextEdit
 VBoxContainer
@@ -8,5 +10,3 @@ HSlider
 Camera2D
 Window
 Button
-TextureRect
-MarginContainer

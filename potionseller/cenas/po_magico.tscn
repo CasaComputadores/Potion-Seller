@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dc7thm55bmkro"]
 
-[ext_resource type="Texture2D" uid="uid://dqhtb5an73nfw" path="res://sprites/po magico.png" id="1_50qiw"]
+[ext_resource type="Texture2D" uid="uid://cjj5571exuae6" path="res://sprites/po magico.png" id="1_50qiw"]
 [ext_resource type="Script" path="res://scripts/po_magico.gd" id="1_okget"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_jdwpx"]
@@ -13,7 +13,7 @@ script = ExtResource("1_okget")
 scale = Vector2(5, 5)
 texture = ExtResource("1_50qiw")
 
-[node name="Area2D" type="Area2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["ingredientes"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
 shape = SubResource("CircleShape2D_jdwpx")

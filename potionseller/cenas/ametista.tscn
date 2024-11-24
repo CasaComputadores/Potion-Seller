@@ -15,7 +15,7 @@ texture = ExtResource("1_q1cwh")
 region_enabled = true
 region_rect = Rect2(18, 18, 12, 13)
 
-[node name="Area2D" type="Area2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["ingredientes"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
 shape = SubResource("CircleShape2D_61npq")

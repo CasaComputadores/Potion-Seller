@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ccll4i0og3s7w"]
 
-[ext_resource type="Script" path="res://cenas/pocao_amarela.gd" id="1_b7vkv"]
+[ext_resource type="Script" path="res://scripts/pocao_amarela.gd" id="1_b7vkv"]
 [ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_nwy26"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fhymh"]

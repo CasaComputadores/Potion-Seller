@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cny6u3l4fus3h"]
 
 [ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_826b4"]
-[ext_resource type="Script" path="res://cenas/pocao_rosa.gd" id="1_d1yrk"]
+[ext_resource type="Script" path="res://scripts/pocao_rosa.gd" id="1_d1yrk"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fhymh"]
 radius = 11.0

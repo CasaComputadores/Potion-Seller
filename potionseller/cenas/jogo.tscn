@@ -5,7 +5,7 @@
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
 [ext_resource type="Texture2D" uid="uid://p1ccgybgsi54" path="res://sprites/Fundo/Fundo tela atras.png" id="3_ufj0j"]
 [ext_resource type="PackedScene" uid="uid://55ny070r5pyj" path="res://cenas/boneco_2.tscn" id="4_ggwoc"]
-[ext_resource type="PackedScene" uid="uid://ci7t0yhmrff4b" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
+[ext_resource type="PackedScene" uid="uid://cy04pep0kt4e1" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
 [ext_resource type="PackedScene" uid="uid://da06ejaopfdnw" path="res://cenas/item_slot.tscn" id="5_u0jws"]
 [ext_resource type="PackedScene" uid="uid://qamxl4b01r3o" path="res://cenas/pocao_azul.tscn" id="8_wo2q7"]
 [ext_resource type="PackedScene" uid="uid://cny6u3l4fus3h" path="res://cenas/pocao_rosa.tscn" id="9_pysyp"]
@@ -55,19 +55,19 @@ text = "Voltar"
 script = ExtResource("2_w0e0k")
 
 [node name="caldeirao" parent="." instance=ExtResource("4_pva1l")]
-position = Vector2(1777, 943)
+position = Vector2(1771, 947)
 
 [node name="itemSlot" parent="." instance=ExtResource("5_u0jws")]
 position = Vector2(1760, 66)
 
 [node name="pocaoAzul" parent="." instance=ExtResource("8_wo2q7")]
-position = Vector2(73, 813)
+position = Vector2(88, 807)
 
 [node name="pocaoRosa" parent="." instance=ExtResource("9_pysyp")]
-position = Vector2(180, 758)
+position = Vector2(223, 808)
 
 [node name="pocaoAmarela" parent="." instance=ExtResource("10_863rn")]
-position = Vector2(284, 814)
+position = Vector2(350, 821)
 
 [connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
 [connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]

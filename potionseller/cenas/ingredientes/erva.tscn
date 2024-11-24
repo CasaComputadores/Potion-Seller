@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bgpdschug7tju"]
+[gd_scene load_steps=4 format=3 uid="uid://cuy17fu2hjc6m"]
 
 [ext_resource type="Script" path="res://scripts/ingrediente.gd" id="1_vf17v"]
 [ext_resource type="Texture2D" uid="uid://bid6p2f33pr2v" path="res://sprites/erva.png" id="2_v036s"]

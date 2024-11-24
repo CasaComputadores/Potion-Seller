@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bcfm1a6quxgqu"]
+[gd_scene load_steps=4 format=3 uid="uid://ccll4i0og3s7w"]
 
 [ext_resource type="Script" path="res://scripts/pocao_amarela.gd" id="1_b7vkv"]
 [ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_nwy26"]
@@ -7,7 +7,7 @@
 radius = 11.0
 height = 32.0
 
-[node name="pocaoAmarela" type="Node2D" groups=["ingredientes"]]
+[node name="pocaoAmarela" type="Node2D" groups=["pocoes"]]
 script = ExtResource("1_b7vkv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -16,7 +16,7 @@ texture = ExtResource("1_nwy26")
 region_enabled = true
 region_rect = Rect2(164, 2, 21, 30)
 
-[node name="Area2D" type="Area2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
 shape = SubResource("CapsuleShape2D_fhymh")

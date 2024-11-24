@@ -7,7 +7,7 @@
 radius = 11.0
 height = 32.0
 
-[node name="pocaoRosa" type="Node2D" groups=["ingredientes"]]
+[node name="pocaoRosa" type="Node2D" groups=["pocoes"]]
 script = ExtResource("1_d1yrk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -16,7 +16,7 @@ texture = ExtResource("1_826b4")
 region_enabled = true
 region_rect = Rect2(164, 34, 21, 30)
 
-[node name="Area2D" type="Area2D" parent="Sprite2D"]
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
 shape = SubResource("CapsuleShape2D_fhymh")

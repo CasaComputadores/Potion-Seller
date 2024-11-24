@@ -27,6 +27,7 @@ window/per_pixel_transparency/allowed=true
 [global_group]
 
 ingredientes=""
+pocoes=""
 
 [input]
 

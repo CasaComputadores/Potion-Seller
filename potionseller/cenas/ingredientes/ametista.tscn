@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://csqyqu260x2yg"]
+[gd_scene load_steps=4 format=3 uid="uid://djogbiqlwkp2u"]
 
 [ext_resource type="Script" path="res://scripts/ametista.gd" id="1_beqvk"]
 [ext_resource type="Texture2D" uid="uid://lyo7abqcmeyl" path="res://sprites/ametista e coracao.png" id="1_q1cwh"]

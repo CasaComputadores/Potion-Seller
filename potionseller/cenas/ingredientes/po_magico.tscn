@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://ip687gxm6tp8"]
+[gd_scene load_steps=4 format=3 uid="uid://dc7thm55bmkro"]
 
 [ext_resource type="Texture2D" uid="uid://cjj5571exuae6" path="res://sprites/po magico.png" id="1_50qiw"]
 [ext_resource type="Script" path="res://scripts/po_magico.gd" id="1_okget"]

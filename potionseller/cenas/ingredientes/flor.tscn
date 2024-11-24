@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://b61il33f4nntn"]
+[gd_scene load_steps=4 format=3 uid="uid://cvnsmnbc064to"]
 
 [ext_resource type="Script" path="res://scripts/flor.gd" id="1_328ha"]
 [ext_resource type="Texture2D" uid="uid://ctyybdwsjidki" path="res://sprites/flor.png" id="1_ciiqs"]

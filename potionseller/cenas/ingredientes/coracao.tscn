@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bypqrkb6jjwle"]
+[gd_scene load_steps=4 format=3 uid="uid://d2ojo5aijk1p7"]
 
 [ext_resource type="Script" path="res://scripts/coracao.gd" id="1_cp74l"]
 [ext_resource type="Texture2D" uid="uid://lyo7abqcmeyl" path="res://sprites/ametista e coracao.png" id="1_h0aea"]

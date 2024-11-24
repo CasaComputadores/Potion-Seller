@@ -1,4 +1,5 @@
 res://cenas
+res://scripts
 res://sprites
 res://sprites/potion
 res://
@@ -6,5 +7,4 @@ res://fontes/pixeloid-font
 res://sprites/Personagem 2
 res://sprites/Personagem 1
 res://sprites/Fundo
-res://scripts
 res://fontes/old-english-gothic-pixel-font

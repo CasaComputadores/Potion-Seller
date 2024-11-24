@@ -9,13 +9,13 @@ radius = 9.7532
 [node name="poMagico" type="Node2D" groups=["ingredientes"]]
 script = ExtResource("1_okget")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="po_magico" type="Sprite2D" parent="."]
 scale = Vector2(5, 5)
 texture = ExtResource("1_50qiw")
 
-[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["ingredientes"]]
+[node name="Area2D" type="Area2D" parent="po_magico" groups=["ingredientes"]]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="po_magico/Area2D"]
 shape = SubResource("CircleShape2D_jdwpx")
 
-[connection signal="input_event" from="Sprite2D/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="input_event" from="po_magico/Area2D" to="." method="_on_area_2d_input_event"]

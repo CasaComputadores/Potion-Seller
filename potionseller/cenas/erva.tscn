@@ -9,14 +9,14 @@ radius = 59.0085
 [node name="erva" type="Node2D" groups=["ingredientes"]]
 script = ExtResource("1_vf17v")
 
-[node name="Erva" type="Sprite2D" parent="." groups=["ingredientes"]]
+[node name="erva" type="Sprite2D" parent="." groups=["ingredientes"]]
 scale = Vector2(4, 4)
 texture = ExtResource("2_v036s")
 
-[node name="Area2D" type="Area2D" parent="Erva" groups=["ingredientes"]]
+[node name="Area2D" type="Area2D" parent="erva" groups=["ingredientes"]]
 scale = Vector2(0.25, 0.25)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Erva/Area2D" groups=["ingredientes"]]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="erva/Area2D" groups=["ingredientes"]]
 shape = SubResource("CircleShape2D_xmtqr")
 
-[connection signal="input_event" from="Erva/Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="input_event" from="erva/Area2D" to="." method="_on_area_2d_input_event"]

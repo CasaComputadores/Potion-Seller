@@ -8,3 +8,9 @@ res://cenas/ametista.tscn
 res://cenas/coracao.tscn
 res://cenas/flor.tscn
 res://cenas/po_magico.tscn
+res://cenas/pocao_amarela.tscn
+res://scripts/pocao_verde.gd
+res://scripts/pocao_amarela.gd
+res://cenas/pocao_verde.tscn
+res://scripts/pocao_vermelha.gd
+res://cenas/pocao_vermelha.tscn

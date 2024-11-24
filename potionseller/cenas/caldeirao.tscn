@@ -1,15 +1,23 @@
-[gd_scene load_steps=5 format=3 uid="uid://cy04pep0kt4e1"]
+[gd_scene load_steps=9 format=3 uid="uid://cy04pep0kt4e1"]
 
 [ext_resource type="Texture2D" uid="uid://lq56p0e7x3ge" path="res://sprites/caldeirao.png" id="1_0mnng"]
 [ext_resource type="Script" path="res://scripts/caldeirao.gd" id="1_gwguk"]
+[ext_resource type="PackedScene" uid="uid://bqaxu5rx28weu" path="res://cenas/pocao_verde.tscn" id="2_5ihbj"]
 [ext_resource type="PackedScene" uid="uid://qamxl4b01r3o" path="res://cenas/pocao_azul.tscn" id="2_vipv1"]
+[ext_resource type="PackedScene" uid="uid://bklys0gw4eayb" path="res://cenas/pocao_vermelha.tscn" id="3_ejveb"]
+[ext_resource type="PackedScene" uid="uid://cny6u3l4fus3h" path="res://cenas/pocao_rosa.tscn" id="3_tb3vh"]
+[ext_resource type="PackedScene" uid="uid://ccll4i0og3s7w" path="res://cenas/pocao_amarela.tscn" id="4_qvbd4"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p7x1r"]
 radius = 142.032
 
 [node name="caldeirao" type="Area2D"]
 script = ExtResource("1_gwguk")
-pocao_scene = ExtResource("2_vipv1")
+pocao_verde = ExtResource("2_5ihbj")
+pocao_vermelha = ExtResource("3_ejveb")
+pocao_rosa = ExtResource("3_tb3vh")
+pocao_azul = ExtResource("2_vipv1")
+pocao_amarela = ExtResource("4_qvbd4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(7.62939e-06, 7.56979e-06)

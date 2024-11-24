@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=3 uid="uid://da06ejaopfdnw"]
+
+[ext_resource type="Texture2D" uid="uid://cdrkm5o88x1o6" path="res://sprites/inventory.png" id="1_3pai1"]
+[ext_resource type="PackedScene" uid="uid://cuy17fu2hjc6m" path="res://cenas/erva.tscn" id="2_dsi66"]
+[ext_resource type="PackedScene" uid="uid://dc7thm55bmkro" path="res://cenas/po_magico.tscn" id="3_yhjvw"]
+
+[node name="itemSlot" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(85.0002, 322)
+scale = Vector2(1.67823, 1.805)
+texture = ExtResource("1_3pai1")
+region_enabled = true
+region_rect = Rect2(238, 61, 76, 331)
+
+[node name="erva1" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(82, 99)
+
+[node name="erva2" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(89, 124)
+
+[node name="erva3" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(104, 91)
+
+[node name="poMagico" parent="." instance=ExtResource("3_yhjvw")]
+position = Vector2(64, 192)
+
+[node name="poMagico2" parent="." instance=ExtResource("3_yhjvw")]
+position = Vector2(110, 197)
+
+[node name="poMagico3" parent="." instance=ExtResource("3_yhjvw")]
+position = Vector2(77, 216)
+
+[node name="poMagico4" parent="." instance=ExtResource("3_yhjvw")]
+position = Vector2(115, 243)
+
+[node name="poMagico5" parent="." instance=ExtResource("3_yhjvw")]
+position = Vector2(75, 244)

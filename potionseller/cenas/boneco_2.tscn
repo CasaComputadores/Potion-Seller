@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://55ny070r5pyj"]
+
+[ext_resource type="Texture2D" uid="uid://k1m8k3q8vvr0" path="res://sprites/Personagem 2/pixil-frame-0.png" id="1_38s5h"]
+[ext_resource type="Texture2D" uid="uid://dajs5tbws8kg2" path="res://sprites/Personagem 2/pixil-frame-1.png" id="2_bit8b"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s3nho"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_38s5h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_bit8b")
+}],
+"loop": true,
+"name": &"default",
+"speed": 1.0
+}]
+
+[node name="boneco2" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_s3nho")
+autoplay = "default"
+frame_progress = 0.300772

@@ -1,14 +1,17 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732410078
-po_magico.gd::GDScript::-1::1732410067::0::1::::<>Node2D<>::
-::res://cenas/::1732410078
-caldeirao.tscn::PackedScene::5401611744272739687::1732409918::0::1::::<><>::uid://bbi6ejrbkv5bj::::res://sprites/caldeirao.png<>res://scripts/caldeirao.gd
-erva.tscn::PackedScene::6227799388210476106::1732409918::0::1::::<><>::res://scripts/ingrediente.gd<>uid://b7770sr27unod::::res://sprites/erva.png
-item_slot.tscn::PackedScene::7212761338248670260::1732409918::0::1::::<><>::uid://cdrkm5o88x1o6::::res://sprites/inventory.png<>uid://cuy17fu2hjc6m::::res://cenas/erva.tscn
-jogo.tscn::PackedScene::707220392395352700::1732409918::0::1::::<><>::res://scripts/jogo.gd<>uid://b8tm4gd6a84el::::res://sprites/v3.png<>res://scripts/voltar_button.gd<>uid://ci7t0yhmrff4b::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
-menu.tscn::PackedScene::4139118370677546283::1732409918::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
-opcoes.tscn::PackedScene::5697341940114929448::1732409918::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
-po_magico.tscn::PackedScene::7366866627894394920::1732410091::0::1::::<><>::uid://dqhtb5an73nfw::::res://sprites/po magico.png<>res://po_magico.gd
+::res://::1732424128
+::res://cenas/::1732424587
+caldeirao.tscn::PackedScene::5401611744272739687::1732424586::0::1::::<><>::uid://bbi6ejrbkv5bj::::res://sprites/caldeirao.png<>res://scripts/caldeirao.gd
+erva.tscn::PackedScene::6227799388210476106::1732424587::0::1::::<><>::res://scripts/ingrediente.gd<>uid://b7770sr27unod::::res://sprites/erva.png
+item_slot.tscn::PackedScene::7212761338248670260::1732424586::0::1::::<><>::uid://cdrkm5o88x1o6::::res://sprites/inventory.png<>uid://cuy17fu2hjc6m::::res://cenas/erva.tscn<>uid://dc7thm55bmkro::::res://cenas/po_magico.tscn
+jogo.tscn::PackedScene::707220392395352700::1732424586::0::1::::<><>::res://scripts/jogo.gd<>uid://hbxevumj0ubh::::res://sprites/Fundo/Tela frente.png<>res://scripts/voltar_button.gd<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/boneco_2.tscn<>uid://ci7t0yhmrff4b::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
+menu.tscn::PackedScene::4139118370677546283::1732424586::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
+opcoes.tscn::PackedScene::5697341940114929448::1732424586::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
+po_magico.tscn::PackedScene::7366866627894394920::1732424587::0::1::::<><>::uid://dqhtb5an73nfw::::res://sprites/po magico.png<>res://scripts/po_magico.gd
+boneco_1.tscn::PackedScene::3407428632598493449::1732424417::0::1::::<><>::uid://bfc5kuo8d2ir2::::res://sprites/Personagem 1/sprite_0.png<>uid://50u2ykhuuks5::::res://sprites/Personagem 1/sprite_1.png<>uid://rdmplmsj2nd1::::res://sprites/Personagem 1/sprite_2.png
+boneco_2.tscn::PackedScene::2168430185399741845::1732424587::0::1::::<><>::uid://k1m8k3q8vvr0::::res://sprites/Personagem 2/pixil-frame-0.png<>uid://dajs5tbws8kg2::::res://sprites/Personagem 2/pixil-frame-1.png
+flor.tscn::PackedScene::6274759014458202512::1732425156::0::1::::<><>::res://cenas/flor.gd<>uid://mxxsntw7n2pi::::res://sprites/flor.png
+flor.gd::GDScript::-1::1732425125::0::1::::<>Node2D<>::
 ::res://fontes/::1728166149
 ::res://fontes/old-english-gothic-pixel-font/::1728166150
 info.txt::TextFile::-1::1723292438::0::1::::<><>::
@@ -24,18 +27,30 @@ PixeloidSans-mLxMm.ttf::FontFile::8668377035099788073::1723294412::1728166150::1
 PixeloidSansBold-PKnYd.ttf::FontFile::1267150055018218579::1723294412::1728166150::1::::<><>::
 ::res://fontes/pixeloid-font/misc/::1728166146
 License.txt::TextFile::-1::1723294412::0::1::::<><>::
-::res://scripts/::1732410089
-caldeirao.gd::GDScript::-1::1728401291::0::1::::<>Node2D<>::
-ingrediente.gd::GDScript::-1::1732409367::0::1::::<>Node2D<>::
+::res://scripts/::1732411455
+caldeirao.gd::GDScript::-1::1732411335::0::1::::<>Node2D<>::
+ingrediente.gd::GDScript::-1::1732411455::0::1::::<>Node2D<>::
 jogar_button.gd::GDScript::-1::1728049217::0::1::::<>Button<>::
 jogo.gd::GDScript::-1::1732409913::0::1::::<>Node2D<>::
 opcoes_button.gd::GDScript::-1::1728049226::0::1::::<>Button<>::
+po_magico.gd::GDScript::-1::1732410448::0::1::::<>Node2D<>::
 sair_button.gd::GDScript::-1::1728048740::0::1::::<>Button<>::
 voltar_button.gd::GDScript::-1::1728049193::0::1::::<>Button<>::
-::res://sprites/::1732408270
+::res://sprites/::1732424996
 caldeirao.png::CompressedTexture2D::2475014418346476875::1728401291::1728401302::1::::<><>::
 erva.png::CompressedTexture2D::4700512329808497875::1728401291::1728401302::1::::<><>::
+flor.png::CompressedTexture2D::891176160321400794::1732424996::1732425007::1::::<><>::
 Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg::CompressedTexture2D::7348672944538475627::1728164761::1728401302::1::::<><>::
 inventory.png::CompressedTexture2D::5019132518446007627::1732406674::1732406704::1::::<><>::
 po magico.png::CompressedTexture2D::8297891178557750772::1732408248::1732408270::1::::<><>::
 telaprincipal.png::CompressedTexture2D::8405345875308983623::1728401291::1728401302::1::::<><>::
+::res://sprites/Fundo/::1732424200
+Fundo tela atras.png::CompressedTexture2D::1106631834018960713::1732424084::1732424200::1::::<><>::
+Tela frente.png::CompressedTexture2D::494791051674233937::1732424084::1732424200::1::::<><>::
+::res://sprites/Personagem 1/::1732424200
+sprite_0.png::CompressedTexture2D::2743334098712139173::1732424084::1732424200::1::::<><>::
+sprite_1.png::CompressedTexture2D::2158538585637247978::1732424084::1732424200::1::::<><>::
+sprite_2.png::CompressedTexture2D::1200159463055946460::1732424084::1732424200::1::::<><>::
+::res://sprites/Personagem 2/::1732424200
+pixil-frame-0.png::CompressedTexture2D::756350362357878375::1732424084::1732424200::1::::<><>::
+pixil-frame-1.png::CompressedTexture2D::7178988931066183735::1732424084::1732424200::1::::<><>::

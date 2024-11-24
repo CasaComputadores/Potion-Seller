@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://da06ejaopfdnw"]
+[gd_scene load_steps=5 format=3 uid="uid://da06ejaopfdnw"]
 
 [ext_resource type="Texture2D" uid="uid://cdrkm5o88x1o6" path="res://sprites/inventory.png" id="1_3pai1"]
 [ext_resource type="PackedScene" uid="uid://cuy17fu2hjc6m" path="res://cenas/erva.tscn" id="2_dsi66"]
 [ext_resource type="PackedScene" uid="uid://dc7thm55bmkro" path="res://cenas/po_magico.tscn" id="3_yhjvw"]
+[ext_resource type="PackedScene" uid="uid://cvnsmnbc064to" path="res://cenas/flor.tscn" id="4_db4d5"]
 
 [node name="itemSlot" type="Node2D"]
 
@@ -36,3 +37,15 @@ position = Vector2(115, 243)
 
 [node name="poMagico5" parent="." instance=ExtResource("3_yhjvw")]
 position = Vector2(75, 244)
+
+[node name="flor" parent="." instance=ExtResource("4_db4d5")]
+position = Vector2(69, 296)
+
+[node name="flor2" parent="." instance=ExtResource("4_db4d5")]
+position = Vector2(115, 295)
+
+[node name="flor3" parent="." instance=ExtResource("4_db4d5")]
+position = Vector2(85, 321)
+
+[node name="flor4" parent="." instance=ExtResource("4_db4d5")]
+position = Vector2(125, 321)

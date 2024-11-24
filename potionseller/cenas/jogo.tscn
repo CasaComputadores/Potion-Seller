@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://kct206fg1f37"]
+[gd_scene load_steps=8 format=3 uid="uid://kct206fg1f37"]
 
 [ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
-[ext_resource type="Texture2D" uid="uid://b8tm4gd6a84el" path="res://sprites/v3.png" id="1_30wlu"]
+[ext_resource type="Texture2D" uid="uid://hbxevumj0ubh" path="res://sprites/Fundo/Tela frente.png" id="2_7yocj"]
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
+[ext_resource type="Texture2D" uid="uid://p1ccgybgsi54" path="res://sprites/Fundo/Fundo tela atras.png" id="3_ufj0j"]
+[ext_resource type="PackedScene" uid="uid://55ny070r5pyj" path="res://cenas/boneco_2.tscn" id="4_ggwoc"]
 [ext_resource type="PackedScene" uid="uid://ci7t0yhmrff4b" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
 [ext_resource type="PackedScene" uid="uid://da06ejaopfdnw" path="res://cenas/item_slot.tscn" id="5_u0jws"]
 
@@ -15,7 +17,15 @@ offset_bottom = 1080.0
 
 [node name="TextureRect" type="TextureRect" parent="MarginContainer"]
 layout_mode = 2
-texture = ExtResource("1_30wlu")
+texture = ExtResource("2_7yocj")
+
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("3_ufj0j")
+
+[node name="boneco2" parent="MarginContainer" instance=ExtResource("4_ggwoc")]
+position = Vector2(274, 362)
+scale = Vector2(11, 11)
 
 [node name="Window" type="Window" parent="."]
 initial_position = 1

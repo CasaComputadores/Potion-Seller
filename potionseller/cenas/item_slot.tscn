@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://da06ejaopfdnw"]
+[gd_scene load_steps=7 format=3 uid="uid://da06ejaopfdnw"]
 
 [ext_resource type="Texture2D" uid="uid://cdrkm5o88x1o6" path="res://sprites/inventory.png" id="1_3pai1"]
 [ext_resource type="PackedScene" uid="uid://cuy17fu2hjc6m" path="res://cenas/erva.tscn" id="2_dsi66"]
 [ext_resource type="PackedScene" uid="uid://dc7thm55bmkro" path="res://cenas/po_magico.tscn" id="3_yhjvw"]
 [ext_resource type="PackedScene" uid="uid://cvnsmnbc064to" path="res://cenas/flor.tscn" id="4_db4d5"]
+[ext_resource type="PackedScene" uid="uid://djogbiqlwkp2u" path="res://cenas/ametista.tscn" id="5_m7oiv"]
+[ext_resource type="PackedScene" uid="uid://d2ojo5aijk1p7" path="res://cenas/coracao.tscn" id="6_4w1ty"]
 
 [node name="itemSlot" type="Node2D"]
 
@@ -49,3 +51,54 @@ position = Vector2(85, 321)
 
 [node name="flor4" parent="." instance=ExtResource("4_db4d5")]
 position = Vector2(125, 321)
+
+[node name="ametista" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(73, 390)
+
+[node name="ametista2" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(98, 396)
+
+[node name="ametista3" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(120, 411)
+
+[node name="ametista4" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(73, 424)
+
+[node name="ametista5" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(98, 431)
+
+[node name="ametista6" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(120, 449)
+
+[node name="ametista7" parent="." instance=ExtResource("5_m7oiv")]
+position = Vector2(81, 446)
+
+[node name="coracao" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(64, 496)
+
+[node name="coracao2" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(103, 508)
+
+[node name="coracao3" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(72, 532)
+
+[node name="coracao4" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(121, 535)
+
+[node name="coracao5" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(87, 552)
+
+[node name="coracao6" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(68, 553)
+
+[node name="coracao7" parent="." instance=ExtResource("6_4w1ty")]
+position = Vector2(116, 557)
+
+[node name="erva" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(87, 96)
+
+[node name="erva4" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(81, 120)
+
+[node name="erva5" parent="." instance=ExtResource("2_dsi66")]
+position = Vector2(97, 102)

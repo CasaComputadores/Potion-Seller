@@ -1,6 +1,7 @@
 CollisionShape2D
 Area2D
 Sprite2D
+Button
 AnimatedSprite2D
 TextureRect
 MarginContainer
@@ -10,4 +11,3 @@ VBoxContainer
 HSlider
 Camera2D
 Window
-Button

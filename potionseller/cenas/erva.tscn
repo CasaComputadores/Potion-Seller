@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cuy17fu2hjc6m"]
 
 [ext_resource type="Script" path="res://scripts/ingrediente.gd" id="1_vf17v"]
-[ext_resource type="Texture2D" uid="uid://b7770sr27unod" path="res://sprites/erva.png" id="2_v036s"]
+[ext_resource type="Texture2D" uid="uid://bid6p2f33pr2v" path="res://sprites/erva.png" id="2_v036s"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xmtqr"]
 radius = 59.0085

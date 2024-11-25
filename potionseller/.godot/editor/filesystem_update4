@@ -1,11 +1,4 @@
+res://cenas/jogo.tscn
 res://cenas/caldeirao.tscn
-res://scripts/caldeirao.gd
-res://cenas/pocao_verde.tscn
-res://cenas/pocao_vermelha.tscn
-res://scripts/boneco_2.gd
 res://cenas/npc/boneco_2.tscn
-res://cenas/pocoes/pocao_vermelha.tscn
-res://cenas/pocoes/pocao_verde.tscn
-res://cenas/pocoes/pocao_rosa.tscn
-res://cenas/pocoes/pocao_azul.tscn
 res://cenas/pocoes/pocao_amarela.tscn

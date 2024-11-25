@@ -1,3 +1,5 @@
+Label
+CanvasLayer
 CollisionShape2D
 Sprite2D
 Area2D
@@ -5,7 +7,6 @@ Button
 AnimatedSprite2D
 TextureRect
 MarginContainer
-Label
 TextEdit
 VBoxContainer
 HSlider

@@ -1,3 +1,5 @@
+AudioStreamPlayer
+AudioStreamPlayer2D
 Label
 CanvasLayer
 CollisionShape2D
@@ -10,5 +12,3 @@ MarginContainer
 TextEdit
 VBoxContainer
 HSlider
-Camera2D
-Window

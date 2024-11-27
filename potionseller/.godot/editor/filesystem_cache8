@@ -1,15 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732645928
-::res://cenas/::1732645929
+::res://::1732712498
+::res://cenas/::1732649456
 ametista.tscn::PackedScene::6070757471084179594::1732488822::0::1::::<><>::res://scripts/ametista.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
 caldeirao.tscn::PackedScene::6510770872664770862::1732641594::0::1::::<><>::uid://lq56p0e7x3ge::::res://sprites/caldeirao.png<>res://scripts/caldeirao.gd<>uid://bqaxu5rx28weu::::res://cenas/pocoes/pocao_verde.tscn<>uid://bklys0gw4eayb::::res://cenas/pocoes/pocao_vermelha.tscn<>uid://cny6u3l4fus3h::::res://cenas/pocoes/pocao_rosa.tscn<>uid://qamxl4b01r3o::::res://cenas/pocoes/pocao_azul.tscn<>uid://ccll4i0og3s7w::::res://cenas/pocoes/pocao_amarela.tscn
 coracao.tscn::PackedScene::4102920955896632138::1732488823::0::1::::<><>::res://scripts/coracao.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
 erva.tscn::PackedScene::2838733823879117234::1732488823::0::1::::<><>::res://scripts/ingrediente.gd<>uid://bid6p2f33pr2v::::res://sprites/erva.png
 flor.tscn::PackedScene::4616455551927529887::1732488824::0::1::::<><>::res://scripts/flor.gd<>uid://ctyybdwsjidki::::res://sprites/flor.png
 item_slot.tscn::PackedScene::7212761338248670260::1732481022::0::1::::<><>::uid://cdrkm5o88x1o6::::res://sprites/inventory.png<>uid://cuy17fu2hjc6m::::res://cenas/erva.tscn<>uid://dc7thm55bmkro::::res://cenas/po_magico.tscn<>uid://cvnsmnbc064to::::res://cenas/flor.tscn<>uid://djogbiqlwkp2u::::res://cenas/ametista.tscn<>uid://d2ojo5aijk1p7::::res://cenas/coracao.tscn
-jogo.tscn::PackedScene::707220392395352700::1732645929::0::1::::<><>::res://scripts/jogo.gd<>uid://hbxevumj0ubh::::res://sprites/Fundo/Tela frente.png<>res://scripts/voltar_button.gd<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
-menu.tscn::PackedScene::4139118370677546283::1732645688::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
-opcoes.tscn::PackedScene::5697341940114929448::1732645679::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
+jogo.tscn::PackedScene::707220392395352700::1732649430::0::1::::<><>::res://scripts/jogo.gd<>uid://hbxevumj0ubh::::res://sprites/Fundo/Tela frente.png<>res://scripts/voltar_button.gd<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
+menu.tscn::PackedScene::4139118370677546283::1732649430::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
+opcoes.tscn::PackedScene::5697341940114929448::1732649456::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/opcoes.gd<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
 pocao_amarela.tscn::PackedScene::2537895342937731460::1732488826::0::1::::<><>::res://scripts/pocao_amarela.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_verde.tscn::PackedScene::5177851566664323297::1732489020::0::1::::<><>::res://scripts/pocao_verde.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_vermelha.tscn::PackedScene::4927182998359233661::1732489020::0::1::::<><>::res://scripts/pocao_vermelha.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
@@ -20,8 +20,8 @@ coracao.tscn::PackedScene::9083835147989019494::1732481023::0::1::::<><>::res://
 erva.tscn::PackedScene::6227799388210476106::1732481023::0::1::::<><>::res://scripts/ingrediente.gd<>uid://bid6p2f33pr2v::::res://sprites/erva.png
 flor.tscn::PackedScene::6274759014458202512::1732481023::0::1::::<><>::res://scripts/flor.gd<>uid://ctyybdwsjidki::::res://sprites/flor.png
 po_magico.tscn::PackedScene::7366866627894394920::1732481023::0::1::::<><>::uid://cjj5571exuae6::::res://sprites/po magico.png<>res://scripts/po_magico.gd
-::res://cenas/musicas/::1732645894
-musica_menu.tscn::PackedScene::9027602135544595259::1732645894::0::1::::<><>::uid://bcj5bh5qdvd7e::::res://musica/music-loop-bundle-download_2024_q2/Sketchbook 2024-06-19.ogg
+::res://cenas/musicas/::1732649431
+musica_menu.tscn::PackedScene::9027602135544595259::1732649431::0::1::::<><>::uid://s2g6lm5anvpx::::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/Pixel 11.wav
 ::res://cenas/npc/::1732641594
 boneco_1.tscn::PackedScene::3407428632598493449::1732459935::0::1::::<><>::uid://bfc5kuo8d2ir2::::res://sprites/Personagem 1/sprite_0.png<>uid://50u2ykhuuks5::::res://sprites/Personagem 1/sprite_1.png<>uid://rdmplmsj2nd1::::res://sprites/Personagem 1/sprite_2.png
 boneco_2.tscn::PackedScene::2168430185399741845::1732641594::0::1::::<><>::uid://k1m8k3q8vvr0::::res://sprites/Personagem 2/pixil-frame-0.png<>res://scripts/boneco_2.gd<>uid://dajs5tbws8kg2::::res://sprites/Personagem 2/pixil-frame-1.png
@@ -46,93 +46,74 @@ PixeloidSans-mLxMm.ttf::FontFile::8668377035099788073::1723294412::1728166150::1
 PixeloidSansBold-PKnYd.ttf::FontFile::1267150055018218579::1723294412::1728166150::1::::<><>::
 ::res://fontes/pixeloid-font/misc/::1728166146
 License.txt::TextFile::-1::1723294412::0::1::::<><>::
-::res://musica/::1732645952
-::res://musica/music-loop-bundle-download_2024_q1/::1732641790
-_LICENSE.txt::TextFile::-1::1730405956::0::1::::<><>::
-_README.txt::TextFile::-1::1730405956::0::1::::<><>::
-FreeLoopsMetadata.png::CompressedTexture2D::2359914671995091062::1730405955::1732641790::1::::<><>::
-Sketchbook2024Metadata.jpg::CompressedTexture2D::640679914818397129::1730405956::1732641790::1::::<><>::
-Sketchbook 2023-11-29.ogg::AudioStreamOggVorbis::5211747031748845536::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-01-24_01.ogg::AudioStreamOggVorbis::6274528813290740845::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-01-24_02.ogg::AudioStreamOggVorbis::277391934281826977::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-07.ogg::AudioStreamOggVorbis::2772654531167967759::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-14_L01.ogg::AudioStreamOggVorbis::1906562563890373148::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-14_L02.ogg::AudioStreamOggVorbis::3180317356872974810::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-14_L03.ogg::AudioStreamOggVorbis::7296511148730943351::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-21_01.ogg::AudioStreamOggVorbis::1539270988120783219::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-21_02.ogg::AudioStreamOggVorbis::1621183266326866591::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-28_01.ogg::AudioStreamOggVorbis::4328937121461571931::1730405955::1732641790::1::::<><>::
-Sketchbook 2024-02-28_02.ogg::AudioStreamOggVorbis::7647178040027072614::1730405956::1732641790::1::::<><>::
-Sketchbook 2024-03-06_01.ogg::AudioStreamOggVorbis::982287430373235365::1730405956::1732641790::1::::<><>::
-Sketchbook 2024-03-06_02.ogg::AudioStreamOggVorbis::5888607024426338974::1730405956::1732641789::1::::<><>::
-Sketchbook 2024-03-20_01.ogg::AudioStreamOggVorbis::8474333374857478153::1730405956::1732641789::1::::<><>::
-Sketchbook 2024-03-20_02.ogg::AudioStreamOggVorbis::4220945228694603328::1730405956::1732641789::1::::<><>::
-Sketchbook 2024-03-30_01_L01.ogg::AudioStreamOggVorbis::1116654916853644797::1730405956::1732641789::1::::<><>::
-Sketchbook 2024-03-30_01_L02.ogg::AudioStreamOggVorbis::3253708613319941276::1730405956::1732641789::1::::<><>::
-Sketchbook 2024-03-30_02.ogg::AudioStreamOggVorbis::354251480218472861::1730405956::1732641789::1::::<><>::
-::res://musica/music-loop-bundle-download_2024_q2/::1732641934
+::res://musica/::1732712352
+::res://musica/music-loop-bundle-download_2024_q2/::1732712384
 _LICENSE.txt::TextFile::-1::1730405956::0::1::::<><>::
 _README.txt::TextFile::-1::1730405956::0::1::::<><>::
 FreeLoopsMetadata.png::CompressedTexture2D::4446613757716991844::1730405955::1732641902::1::::<><>::
 Sketchbook2024Metadata.jpg::CompressedTexture2D::567366947049331146::1730405956::1732641902::1::::<><>::
-Sketchbook 2024-04-10.ogg::AudioStreamOggVorbis::244825761828384447::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-04-24_01.ogg::AudioStreamOggVorbis::2379951528781821672::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-04-24_02.ogg::AudioStreamOggVorbis::2983135319084131569::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-04-24_03.ogg::AudioStreamOggVorbis::7550723464643004288::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-01_01.ogg::AudioStreamOggVorbis::503446479136195026::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-01_02.ogg::AudioStreamOggVorbis::812051303396273440::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-08.ogg::AudioStreamOggVorbis::4495472241407167250::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-15.ogg::AudioStreamOggVorbis::7861355345955465017::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-22.ogg::AudioStreamOggVorbis::839227161065475755::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-05-29.ogg::AudioStreamOggVorbis::2542903755727684767::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-06-05_01.ogg::AudioStreamOggVorbis::1702483666826619432::1730405955::1732641901::1::::<><>::
-Sketchbook 2024-06-05_02.ogg::AudioStreamOggVorbis::7973546370355036696::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-06-12.ogg::AudioStreamOggVorbis::2015232804154314932::1730405955::1732641902::1::::<><>::
-Sketchbook 2024-06-16.ogg::AudioStreamOggVorbis::5891709446109001209::1730405955::1732641901::1::::<><>::
 Sketchbook 2024-06-19.ogg::AudioStreamOggVorbis::2547201481071991848::1730405955::1732641934::1::::<><>::
-Sketchbook 2024-06-26.ogg::AudioStreamOggVorbis::4756856195150914336::1730405956::1732641902::1::::<><>::
 ::res://musica/Pixel RPG Music Pack/::1732645946
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/::1679303318
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/mp3/::1679303262
-Pixel 1.mp3::AudioStreamMP3::5914492599311620551::1677410623::1732645955::1::::<><>::
-Pixel 2.mp3::AudioStreamMP3::1243700828996728757::1677411913::1732645955::1::::<><>::
-Pixel 3.mp3::AudioStreamMP3::4066968796455423230::1677412972::1732645955::1::::<><>::
-Pixel 4.mp3::AudioStreamMP3::6677030152836503578::1678871648::1732645955::1::::<><>::
-Pixel 5.mp3::AudioStreamMP3::1468315307824169859::1678871843::1732645955::1::::<><>::
-Pixel 6.mp3::AudioStreamMP3::2778227055273297698::1679040246::1732645955::1::::<><>::
-Pixel 7.mp3::AudioStreamMP3::3478733243781651805::1679040334::1732645955::1::::<><>::
-Pixel 8.mp3::AudioStreamMP3::6066740920357280919::1679300702::1732645955::1::::<><>::
-Pixel 9.mp3::AudioStreamMP3::2730731647660640982::1679301189::1732645955::1::::<><>::
-Pixel 10.mp3::AudioStreamMP3::2588224309702959158::1679301271::1732645955::1::::<><>::
-Pixel 11.mp3::AudioStreamMP3::8762853852892102195::1679302389::1732645955::1::::<><>::
-Pixel 12.mp3::AudioStreamMP3::6488219354362287971::1679302626::1732645955::1::::<><>::
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Ogg/::1679303281
-Pixel 1.ogg::AudioStreamOggVorbis::1710315396047169549::1677410623::1732645955::1::::<><>::
-Pixel 2.ogg::AudioStreamOggVorbis::6876142245895138374::1677411913::1732645955::1::::<><>::
-Pixel 3.ogg::AudioStreamOggVorbis::6780474919083728928::1677412972::1732645955::1::::<><>::
-Pixel 4.ogg::AudioStreamOggVorbis::5992455456564273748::1678871648::1732645955::1::::<><>::
-Pixel 5.ogg::AudioStreamOggVorbis::1792210865767333180::1678871843::1732645955::1::::<><>::
-Pixel 6.ogg::AudioStreamOggVorbis::4364502314506531325::1679040246::1732645955::1::::<><>::
-Pixel 7.ogg::AudioStreamOggVorbis::6207198150986715124::1679040334::1732645955::1::::<><>::
-Pixel 8.ogg::AudioStreamOggVorbis::4245385877599974036::1679300702::1732645955::1::::<><>::
-Pixel 9.ogg::AudioStreamOggVorbis::8722352298210257275::1679301189::1732645955::1::::<><>::
-Pixel 10.ogg::AudioStreamOggVorbis::3404458360721090690::1679301271::1732645955::1::::<><>::
-Pixel 11.ogg::AudioStreamOggVorbis::8666208784551307199::1679302389::1732645955::1::::<><>::
-Pixel 12.ogg::AudioStreamOggVorbis::1815035137197486779::1679302626::1732645955::1::::<><>::
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/::1679303299
-Pixel 1.wav::AudioStreamWAV::2782216489180947132::1677410623::1732645958::1::::<><>::
-Pixel 2.wav::AudioStreamWAV::2761219174763168107::1677411913::1732645958::1::::<><>::
-Pixel 3.wav::AudioStreamWAV::4609519485950432077::1677412972::1732645958::1::::<><>::
-Pixel 4.wav::AudioStreamWAV::1655081515984355939::1678871648::1732645958::1::::<><>::
-Pixel 5.wav::AudioStreamWAV::6431311759207495576::1678871843::1732645957::1::::<><>::
-Pixel 6.wav::AudioStreamWAV::9102177559423802578::1679040246::1732645957::1::::<><>::
-Pixel 7.wav::AudioStreamWAV::8796457244849268937::1679040334::1732645956::1::::<><>::
-Pixel 8.wav::AudioStreamWAV::4779542471197349450::1679300702::1732645957::1::::<><>::
-Pixel 9.wav::AudioStreamWAV::6887202458637349613::1679301189::1732645956::1::::<><>::
-Pixel 10.wav::AudioStreamWAV::5627777784985856599::1679301271::1732645957::1::::<><>::
+::res://musica/Pixel RPG Music Pack/Pixel Music Pack/::1732712395
+::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/::1732712422
 Pixel 11.wav::AudioStreamWAV::1319557644069950481::1679302389::1732645957::1::::<><>::
-Pixel 12.wav::AudioStreamWAV::1814952542061776962::1679302626::1732645957::1::::<><>::
-::res://scripts/::1732641074
+::res://musica/UI Soundpack/::1732712433
+::res://musica/UI Soundpack/UI Soundpack/::1732712440
+readme.txt::TextFile::-1::1632770468::0::1::::<><>::
+::res://musica/UI Soundpack/UI Soundpack/WAV/::1632770674
+Abstract1.wav::AudioStreamWAV::5888317524467687916::1632765421::1732712503::1::::<><>::
+Abstract2.wav::AudioStreamWAV::7490331636015555687::1632765421::1732712503::1::::<><>::
+African1.wav::AudioStreamWAV::3999312762851538020::1632765419::1732712503::1::::<><>::
+African2.wav::AudioStreamWAV::4192317087597546610::1632765420::1732712503::1::::<><>::
+African3.wav::AudioStreamWAV::6438004833873461688::1632765420::1732712503::1::::<><>::
+African4.wav::AudioStreamWAV::8981070463058967582::1632765420::1732712503::1::::<><>::
+Coffee1.wav::AudioStreamWAV::5371890120018568723::1632765421::1732712503::1::::<><>::
+Coffee2.wav::AudioStreamWAV::6536055606736846515::1632765421::1732712503::1::::<><>::
+Minimalist1.wav::AudioStreamWAV::4979577620896811795::1632765422::1732712503::1::::<><>::
+Minimalist2.wav::AudioStreamWAV::8357718196104935687::1632765422::1732712503::1::::<><>::
+Minimalist3.wav::AudioStreamWAV::1646538809347104040::1632765427::1732712503::1::::<><>::
+Minimalist4.wav::AudioStreamWAV::8371804369074865168::1632765429::1732712503::1::::<><>::
+Minimalist5.wav::AudioStreamWAV::4271553906275006451::1632765430::1732712503::1::::<><>::
+Minimalist6.wav::AudioStreamWAV::5676225591129786534::1632765429::1732712503::1::::<><>::
+Minimalist7.wav::AudioStreamWAV::8268255935157714481::1632765427::1732712503::1::::<><>::
+Minimalist8.wav::AudioStreamWAV::7656655553599434606::1632765428::1732712503::1::::<><>::
+Minimalist9.wav::AudioStreamWAV::2793116660421582663::1632765429::1732712503::1::::<><>::
+Minimalist10.wav::AudioStreamWAV::6587085095114623272::1632765428::1732712503::1::::<><>::
+Minimalist11.wav::AudioStreamWAV::6328782582796537882::1632765430::1732712503::1::::<><>::
+Minimalist12.wav::AudioStreamWAV::1712718783581458900::1632765428::1732712503::1::::<><>::
+Minimalist13.wav::AudioStreamWAV::1399489634137060765::1632765427::1732712503::1::::<><>::
+Modern1.wav::AudioStreamWAV::1904033698427858977::1632765422::1732712503::1::::<><>::
+Modern2.wav::AudioStreamWAV::8295777521669404360::1632765423::1732712503::1::::<><>::
+Modern3.wav::AudioStreamWAV::6120156149360500399::1632765423::1732712503::1::::<><>::
+Modern4.wav::AudioStreamWAV::5006158239525397447::1632765431::1732712503::1::::<><>::
+Modern5.wav::AudioStreamWAV::1970752474262222416::1632765423::1732712503::1::::<><>::
+Modern6.wav::AudioStreamWAV::1920973458989377832::1632765424::1732712503::1::::<><>::
+Modern7.wav::AudioStreamWAV::8271883884711879109::1632765428::1732712503::1::::<><>::
+Modern8.wav::AudioStreamWAV::1436148559881620067::1632765424::1732712503::1::::<><>::
+Modern9.wav::AudioStreamWAV::2356297366893153688::1632765424::1732712503::1::::<><>::
+Modern10.wav::AudioStreamWAV::969745858193598162::1632765424::1732712503::1::::<><>::
+Modern11.wav::AudioStreamWAV::8718543539668813552::1632765425::1732712503::1::::<><>::
+Modern12.wav::AudioStreamWAV::1177634627275833816::1632765425::1732712503::1::::<><>::
+Modern13.wav::AudioStreamWAV::7549331136009758399::1632765425::1732712503::1::::<><>::
+Modern14.wav::AudioStreamWAV::9047209655100379570::1632765426::1732712503::1::::<><>::
+Modern15.wav::AudioStreamWAV::4480179622328576399::1632765426::1732712503::1::::<><>::
+Modern16.wav::AudioStreamWAV::4216832689131934013::1632765426::1732712503::1::::<><>::
+Retro1.wav::AudioStreamWAV::6302053069480244103::1632765415::1732712503::1::::<><>::
+Retro2.wav::AudioStreamWAV::2981270719529907359::1632765415::1732712503::1::::<><>::
+Retro3.wav::AudioStreamWAV::3923900680791720347::1632765416::1732712503::1::::<><>::
+Retro4.wav::AudioStreamWAV::6017263847951595295::1632765416::1732712503::1::::<><>::
+Retro5.wav::AudioStreamWAV::1496660239882333132::1632765430::1732712503::1::::<><>::
+Retro6.wav::AudioStreamWAV::4329301805653272134::1632765416::1732712503::1::::<><>::
+Retro7.wav::AudioStreamWAV::3287140380022009340::1632765417::1732712503::1::::<><>::
+Retro8.wav::AudioStreamWAV::5442829039088010368::1632765417::1732712503::1::::<><>::
+Retro9.wav::AudioStreamWAV::7729722786755484116::1632765417::1732712503::1::::<><>::
+Retro10.wav::AudioStreamWAV::3110095095710109039::1632765417::1732712503::1::::<><>::
+Retro11.wav::AudioStreamWAV::8825814252385445513::1632765418::1732712503::1::::<><>::
+Retro12.wav::AudioStreamWAV::2379307396812039608::1632765418::1732712503::1::::<><>::
+Wood Block1.wav::AudioStreamWAV::937848353624721487::1632765418::1732712503::1::::<><>::
+Wood Block2.wav::AudioStreamWAV::3898675699602151751::1632765419::1732712503::1::::<><>::
+Wood Block3.wav::AudioStreamWAV::2552249153293219778::1632765419::1732712503::1::::<><>::
+::res://scripts/::1732649326
 ametista.gd::GDScript::-1::1732458422::0::1::::<>Node2D<>::
 boneco_2.gd::GDScript::-1::1732641074::0::1::::<>Node2D<>::
 caldeirao.gd::GDScript::-1::1732488920::0::1::::<>Area2D<>::
@@ -141,6 +122,7 @@ flor.gd::GDScript::-1::1732425125::0::1::::<>Node2D<>::
 ingrediente.gd::GDScript::-1::1732478681::0::1::::<>Node2D<>::
 jogar_button.gd::GDScript::-1::1728049217::0::1::::<>Button<>::
 jogo.gd::GDScript::-1::1732457656::0::1::::<>Node2D<>::
+opcoes.gd::GDScript::-1::1732649326::0::1::::<>Node2D<>::
 opcoes_button.gd::GDScript::-1::1728049226::0::1::::<>Button<>::
 pocao_amarela.gd::GDScript::-1::1732480514::0::1::::<>Node2D<>::
 pocao_azul.gd::GDScript::-1::1732460061::0::1::::<>Node2D<>::

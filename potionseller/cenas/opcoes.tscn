@@ -62,7 +62,7 @@ horizontal_alignment = 1
 [node name="VolumeMusica" type="HSlider" parent="VBoxContainer"]
 layout_mode = 2
 min_value = -30.0
-max_value = 30.0
+max_value = 0.0
 value = -5.0
 
 [node name="LabelVolumeSFX" type="Label" parent="VBoxContainer"]

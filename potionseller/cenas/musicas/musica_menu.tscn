@@ -3,45 +3,14 @@
 [ext_resource type="AudioStream" uid="uid://s2g6lm5anvpx" path="res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/Pixel 11.wav" id="1_dul7e"]
 
 [sub_resource type="GDScript" id="GDScript_dut07"]
-script/source = "extends AudioStreamPlayer
+script/source = "extends Node
 
-# Lista de cenas onde a música deve continuar tocando
-@export var allowed_scenes: Array[StringName] = [\"res://cenas/menu.tscn\", \"res://cenas/opcoes.tscn\"]
+var volume_value: float = -5  # Valor inicial do slider (ajuste conforme necessário)
 
-func _ready():
-	# Começa a tocar ao iniciar o jogo
-	if not is_playing():
-		play()
-		print(\"Música iniciada.\")
-
-	# Conecta o sinal para verificar mudanças de cena
-	var signal_connected = get_tree().connect(\"current_scene_changed\", Callable(self, \"_on_scene_changed\"))
-
-	if signal_connected:
-		print(\"Sinal 'current_scene_changed' conectado com sucesso.\")
-	else:
-		print(\"Erro: Falha ao conectar o sinal 'current_scene_changed'.\")
-
-# Chamado quando a cena atual é alterada
-func _on_scene_changed():
-	print(\"Sinal 'current_scene_changed' disparado.\")  # Verifica se o método foi chamado
-
-	var current_scene = get_tree().current_scene
-	if not current_scene:
-		print(\"Erro: Nenhuma cena atual encontrada.\")
-		return
-
-	var current_scene_path = current_scene.get_scene_file_path()
-	print(\"Cena atual: \", current_scene_path)
-
-	if current_scene_path in allowed_scenes:
-		if not is_playing():
-			play()
-			print(\"Música retomada na cena permitida.\")
-	else:
-		if is_playing():
-			stop()
-			print(\"Música pausada, cena fora de allowed_scenes.\")
+func set_volume():
+	var master_bus = AudioServer.get_bus_index(\"Master\")
+	AudioServer.set_bus_volume_db(master_bus, volume_value)
+	AudioServer.set_bus_mute(master_bus, volume_value == -30)
 "
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer"]

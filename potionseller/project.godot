@@ -17,6 +17,7 @@ config/features=PackedStringArray("4.3", "Forward Plus")
 [autoload]
 
 MusicaMenu="*res://cenas/musicas/musica_menu.tscn"
+Global="*res://scripts/Global.gd"
 
 [display]
 

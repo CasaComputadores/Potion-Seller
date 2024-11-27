@@ -1,11 +1,5 @@
-res://cenas/musicas/musica_menu.tscn
 res://cenas/jogo.tscn
-res://cenas/menu.tscn
-res://cenas/opcoes.tscn
-res://scripts/menu.gd
-res://cenas/musicas/hover.tscn
-res://cenas/musicas/click.tscn
-res://scripts/opcoes.gd
-res://scripts/voltar_button.gd
-res://scripts/jogo.gd
-res://default_bus_layout.tres
+res://cenas/caldeirao.tscn
+res://cenas/item_slot.tscn
+res://cenas/ingredientes/flor.tscn
+res://cenas/ingredientes/erva.tscn

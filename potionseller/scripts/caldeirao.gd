@@ -17,12 +17,18 @@ func _ready() -> void:
 
 func _on_area_entered(area: Area2D) -> void:
 	print("Objeto entrou:", area.name)
+	
 	if area.is_in_group("ingredientes"):
 		var parent = area.get_parent()
+		
 		if parent:
-			ingredientes_no_caldeirao.append(parent.name)
+			# Identifica qual ingrediente foi adicionado
+			var ingrediente_nome = parent.name
+			ingredientes_no_caldeirao.append(ingrediente_nome)
 			parent.queue_free()
-			print("Ingrediente armazenado:", parent.name)
+			print("Ingrediente armazenado:", ingrediente_nome)
+			
+		
 		if not botao_criar:
 			gerar_botao_criar()
 
@@ -71,7 +77,8 @@ func _on_criar_pocao() -> void:
 			instancia_pocao.global_position = self.global_position
 			get_tree().root.add_child(instancia_pocao)
 			print("Poção criada com sucesso!")
-
+		#verificando qual ingrediente ta usado
+				
 		ingredientes_no_caldeirao.clear()
 		if botao_criar:
 			botao_criar.queue_free()

@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://55ny070r5pyj"]
+[gd_scene load_steps=7 format=3 uid="uid://55ny070r5pyj"]
 
 [ext_resource type="Texture2D" uid="uid://k1m8k3q8vvr0" path="res://sprites/Personagem 2/pixil-frame-0.png" id="1_38s5h"]
 [ext_resource type="Script" path="res://scripts/boneco_2.gd" id="1_n0sev"]
+[ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://sprites/moeda.tscn" id="2_12byl"]
 [ext_resource type="Texture2D" uid="uid://dajs5tbws8kg2" path="res://sprites/Personagem 2/pixil-frame-1.png" id="2_bit8b"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_s3nho"]
@@ -24,6 +25,7 @@ height = 45.0
 
 [node name="boneco2" type="Node2D"]
 script = ExtResource("1_n0sev")
+moedaDourada = ExtResource("2_12byl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_s3nho")

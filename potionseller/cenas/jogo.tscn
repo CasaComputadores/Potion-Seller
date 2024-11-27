@@ -58,4 +58,5 @@ position = Vector2(1771, 947)
 position = Vector2(1760, 66)
 
 [connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
+[connection signal="mouse_entered" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_mouse_entered"]
 [connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]

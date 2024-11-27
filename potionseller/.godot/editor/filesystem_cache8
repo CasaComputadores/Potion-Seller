@@ -1,15 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1732712498
-::res://cenas/::1732649456
+::res://::1732714219
+::res://cenas/::1732713656
 ametista.tscn::PackedScene::6070757471084179594::1732488822::0::1::::<><>::res://scripts/ametista.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
 caldeirao.tscn::PackedScene::6510770872664770862::1732641594::0::1::::<><>::uid://lq56p0e7x3ge::::res://sprites/caldeirao.png<>res://scripts/caldeirao.gd<>uid://bqaxu5rx28weu::::res://cenas/pocoes/pocao_verde.tscn<>uid://bklys0gw4eayb::::res://cenas/pocoes/pocao_vermelha.tscn<>uid://cny6u3l4fus3h::::res://cenas/pocoes/pocao_rosa.tscn<>uid://qamxl4b01r3o::::res://cenas/pocoes/pocao_azul.tscn<>uid://ccll4i0og3s7w::::res://cenas/pocoes/pocao_amarela.tscn
 coracao.tscn::PackedScene::4102920955896632138::1732488823::0::1::::<><>::res://scripts/coracao.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
 erva.tscn::PackedScene::2838733823879117234::1732488823::0::1::::<><>::res://scripts/ingrediente.gd<>uid://bid6p2f33pr2v::::res://sprites/erva.png
 flor.tscn::PackedScene::4616455551927529887::1732488824::0::1::::<><>::res://scripts/flor.gd<>uid://ctyybdwsjidki::::res://sprites/flor.png
 item_slot.tscn::PackedScene::7212761338248670260::1732481022::0::1::::<><>::uid://cdrkm5o88x1o6::::res://sprites/inventory.png<>uid://cuy17fu2hjc6m::::res://cenas/erva.tscn<>uid://dc7thm55bmkro::::res://cenas/po_magico.tscn<>uid://cvnsmnbc064to::::res://cenas/flor.tscn<>uid://djogbiqlwkp2u::::res://cenas/ametista.tscn<>uid://d2ojo5aijk1p7::::res://cenas/coracao.tscn
-jogo.tscn::PackedScene::707220392395352700::1732649430::0::1::::<><>::res://scripts/jogo.gd<>uid://hbxevumj0ubh::::res://sprites/Fundo/Tela frente.png<>res://scripts/voltar_button.gd<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
-menu.tscn::PackedScene::4139118370677546283::1732649430::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
-opcoes.tscn::PackedScene::5697341940114929448::1732649456::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/opcoes.gd<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
+jogo.tscn::PackedScene::707220392395352700::1732713655::0::1::::<><>::res://scripts/jogo.gd<>uid://hbxevumj0ubh::::res://sprites/Fundo/Tela frente.png<>res://scripts/voltar_button.gd<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn
+menu.tscn::PackedScene::4139118370677546283::1732713655::0::1::::<><>::res://scripts/menu.gd<>uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd
+opcoes.tscn::PackedScene::5697341940114929448::1732713656::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/opcoes.gd<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
 pocao_amarela.tscn::PackedScene::2537895342937731460::1732488826::0::1::::<><>::res://scripts/pocao_amarela.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_verde.tscn::PackedScene::5177851566664323297::1732489020::0::1::::<><>::res://scripts/pocao_verde.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_vermelha.tscn::PackedScene::4927182998359233661::1732489020::0::1::::<><>::res://scripts/pocao_vermelha.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
@@ -20,8 +20,8 @@ coracao.tscn::PackedScene::9083835147989019494::1732481023::0::1::::<><>::res://
 erva.tscn::PackedScene::6227799388210476106::1732481023::0::1::::<><>::res://scripts/ingrediente.gd<>uid://bid6p2f33pr2v::::res://sprites/erva.png
 flor.tscn::PackedScene::6274759014458202512::1732481023::0::1::::<><>::res://scripts/flor.gd<>uid://ctyybdwsjidki::::res://sprites/flor.png
 po_magico.tscn::PackedScene::7366866627894394920::1732481023::0::1::::<><>::uid://cjj5571exuae6::::res://sprites/po magico.png<>res://scripts/po_magico.gd
-::res://cenas/musicas/::1732649431
-musica_menu.tscn::PackedScene::9027602135544595259::1732649431::0::1::::<><>::uid://s2g6lm5anvpx::::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/Pixel 11.wav
+::res://cenas/musicas/::1732713656
+musica_menu.tscn::PackedScene::9027602135544595259::1732713656::0::1::::<><>::uid://s2g6lm5anvpx::::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/Pixel 11.wav
 ::res://cenas/npc/::1732641594
 boneco_1.tscn::PackedScene::3407428632598493449::1732459935::0::1::::<><>::uid://bfc5kuo8d2ir2::::res://sprites/Personagem 1/sprite_0.png<>uid://50u2ykhuuks5::::res://sprites/Personagem 1/sprite_1.png<>uid://rdmplmsj2nd1::::res://sprites/Personagem 1/sprite_2.png
 boneco_2.tscn::PackedScene::2168430185399741845::1732641594::0::1::::<><>::uid://k1m8k3q8vvr0::::res://sprites/Personagem 2/pixil-frame-0.png<>res://scripts/boneco_2.gd<>uid://dajs5tbws8kg2::::res://sprites/Personagem 2/pixil-frame-1.png
@@ -53,14 +53,12 @@ _README.txt::TextFile::-1::1730405956::0::1::::<><>::
 FreeLoopsMetadata.png::CompressedTexture2D::4446613757716991844::1730405955::1732641902::1::::<><>::
 Sketchbook2024Metadata.jpg::CompressedTexture2D::567366947049331146::1730405956::1732641902::1::::<><>::
 Sketchbook 2024-06-19.ogg::AudioStreamOggVorbis::2547201481071991848::1730405955::1732641934::1::::<><>::
-::res://musica/Pixel RPG Music Pack/::1732645946
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/::1732712395
-::res://musica/Pixel RPG Music Pack/Pixel Music Pack/Wav/::1732712422
-Pixel 11.wav::AudioStreamWAV::1319557644069950481::1679302389::1732645957::1::::<><>::
+::res://musica/Pixel RPG Music Pack/::1732714537
+Pixel 11.ogg::AudioStreamOggVorbis::1092196451949305126::1679302389::1732714541::1::::<><>::
 ::res://musica/UI Soundpack/::1732712433
 ::res://musica/UI Soundpack/UI Soundpack/::1732712440
 readme.txt::TextFile::-1::1632770468::0::1::::<><>::
-::res://musica/UI Soundpack/UI Soundpack/WAV/::1632770674
+::res://musica/UI Soundpack/UI Soundpack/WAV/::1732712503
 Abstract1.wav::AudioStreamWAV::5888317524467687916::1632765421::1732712503::1::::<><>::
 Abstract2.wav::AudioStreamWAV::7490331636015555687::1632765421::1732712503::1::::<><>::
 African1.wav::AudioStreamWAV::3999312762851538020::1632765419::1732712503::1::::<><>::
@@ -113,7 +111,7 @@ Retro12.wav::AudioStreamWAV::2379307396812039608::1632765418::1732712503::1::::<
 Wood Block1.wav::AudioStreamWAV::937848353624721487::1632765418::1732712503::1::::<><>::
 Wood Block2.wav::AudioStreamWAV::3898675699602151751::1632765419::1732712503::1::::<><>::
 Wood Block3.wav::AudioStreamWAV::2552249153293219778::1632765419::1732712503::1::::<><>::
-::res://scripts/::1732649326
+::res://scripts/::1732713408
 ametista.gd::GDScript::-1::1732458422::0::1::::<>Node2D<>::
 boneco_2.gd::GDScript::-1::1732641074::0::1::::<>Node2D<>::
 caldeirao.gd::GDScript::-1::1732488920::0::1::::<>Area2D<>::
@@ -122,7 +120,8 @@ flor.gd::GDScript::-1::1732425125::0::1::::<>Node2D<>::
 ingrediente.gd::GDScript::-1::1732478681::0::1::::<>Node2D<>::
 jogar_button.gd::GDScript::-1::1728049217::0::1::::<>Button<>::
 jogo.gd::GDScript::-1::1732457656::0::1::::<>Node2D<>::
-opcoes.gd::GDScript::-1::1732649326::0::1::::<>Node2D<>::
+menu.gd::GDScript::-1::1732713355::0::1::::<>Node2D<>::
+opcoes.gd::GDScript::-1::1732713408::0::1::::<>Node2D<>::
 opcoes_button.gd::GDScript::-1::1728049226::0::1::::<>Button<>::
 pocao_amarela.gd::GDScript::-1::1732480514::0::1::::<>Node2D<>::
 pocao_azul.gd::GDScript::-1::1732460061::0::1::::<>Node2D<>::

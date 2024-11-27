@@ -7,11 +7,6 @@ extends Node2D
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("Esc"):
 		escmenu.show()
-	if Input.is_action_just_pressed("Criar Objeto"):
-		var ingrediente = ingrediente.instantiate()
-		add_child(ingrediente)
-		ingrediente.global_position = get_viewport().get_mouse_position()
-
 
 func _on_window_close_requested() -> void:
 	escmenu.hide()

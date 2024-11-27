@@ -54,6 +54,16 @@ offset_right = 683.0
 offset_bottom = 681.0
 theme_override_constants/separation = 60
 
+[node name="LabelVolumeGeral" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Volume Geral"
+horizontal_alignment = 1
+
+[node name="VolumeGeral" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+min_value = -30.0
+max_value = 0.0
+
 [node name="LabelVolumeMusica" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 text = "Volume da música"
@@ -72,7 +82,10 @@ horizontal_alignment = 1
 
 [node name="VolumeSFX" type="HSlider" parent="VBoxContainer"]
 layout_mode = 2
-value = 80.0
+min_value = -30.0
+max_value = 0.0
 
 [connection signal="pressed" from="VoltarButton" to="VoltarButton" method="_on_pressed"]
+[connection signal="value_changed" from="VBoxContainer/VolumeGeral" to="." method="_on_volume_geral_value_changed"]
 [connection signal="value_changed" from="VBoxContainer/VolumeMusica" to="." method="_on_volume_musica_value_changed"]
+[connection signal="value_changed" from="VBoxContainer/VolumeSFX" to="." method="_on_volume_sfx_value_changed"]

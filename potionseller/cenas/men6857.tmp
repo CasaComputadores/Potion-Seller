@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://by8aw7duxspx8"]
+[gd_scene load_steps=10 format=3 uid="uid://by8aw7duxspx8"]
 
 [ext_resource type="Script" path="res://scripts/menu.gd" id="1_8i032"]
 [ext_resource type="Texture2D" uid="uid://dcx0tmve0dnvf" path="res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg" id="1_b3qkb"]
@@ -7,7 +7,6 @@
 [ext_resource type="FontFile" uid="uid://c1850qmeh1v6h" path="res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf" id="2_65tvk"]
 [ext_resource type="FontFile" uid="uid://cescu06r2nw5f" path="res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf" id="2_x20gm"]
 [ext_resource type="Script" path="res://scripts/sair_button.gd" id="3_kqdxb"]
-[ext_resource type="AudioStream" uid="uid://cv105mw1ex08j" path="res://musica/UI Soundpack/UI Soundpack/WAV/Retro1.wav" id="8_0gda3"]
 
 [sub_resource type="Gradient" id="Gradient_pmqp2"]
 offsets = PackedFloat32Array(0, 0.227273)
@@ -82,9 +81,6 @@ theme_override_fonts/font = ExtResource("2_65tvk")
 theme_override_font_sizes/font_size = 160
 text = "Potion
    Seller"
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("8_0gda3")
 
 [connection signal="pressed" from="VBoxContainer/JogarButton" to="VBoxContainer/JogarButton" method="_on_pressed"]
 [connection signal="pressed" from="VBoxContainer/OpcoesButton" to="VBoxContainer/OpcoesButton" method="_on_pressed"]

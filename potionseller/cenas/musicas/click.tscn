@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://djn62p3juadux"]
+
+[ext_resource type="AudioStream" uid="uid://cv105mw1ex08j" path="res://musica/UI Soundpack/UI Soundpack/WAV/Retro1.wav" id="1_vr4yf"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_vr4yf")
+bus = &"SFX"

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlmfemt4pwmii"]
+
+[ext_resource type="AudioStream" uid="uid://xpuivgtyjnvc" path="res://musica/UI Soundpack/UI Soundpack/WAV/Minimalist3.wav" id="1_dg0hg"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_dg0hg")
+bus = &"SFX"

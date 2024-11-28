@@ -77,7 +77,21 @@ func _on_criar_pocao() -> void:
 			instancia_pocao.global_position = self.global_position
 			get_tree().root.add_child(instancia_pocao)
 			print("Poção criada com sucesso!")
-		#verificando qual ingrediente ta usado
+		
+		for ingrediente in contagem:
+			if ingrediente in contagem and contagem[ingrediente]:
+				match ingrediente:
+					"erva":
+						Global.decrementar_ervas(contagem[ingrediente])
+					"flor":
+						Global.decrementar_flores(contagem[ingrediente])
+					"ametista":
+						Global.decrementar_ametista(contagem[ingrediente])
+					"coracao":
+						Global.decrementar_coracao(contagem[ingrediente])
+					"po_magico":
+						Global.decrementar_po(contagem[ingrediente])
+						
 				
 		ingredientes_no_caldeirao.clear()
 		if botao_criar:

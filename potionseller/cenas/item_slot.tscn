@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://da06ejaopfdnw"]
+[gd_scene load_steps=22 format=3 uid="uid://da06ejaopfdnw"]
 
 [ext_resource type="Texture2D" uid="uid://cdrkm5o88x1o6" path="res://sprites/inventory.png" id="1_3pai1"]
 [ext_resource type="Script" path="res://scripts/erva_area_ingredientes.gd" id="2_fvwoj"]
@@ -7,12 +7,30 @@
 [ext_resource type="Texture2D" uid="uid://ctyybdwsjidki" path="res://sprites/flor.png" id="4_gbc32"]
 [ext_resource type="Script" path="res://scripts/item_slot/flor_area_ingrediente.gd" id="5_cj6ko"]
 [ext_resource type="PackedScene" uid="uid://b61il33f4nntn" path="res://cenas/flor.tscn" id="6_a7dii"]
+[ext_resource type="Texture2D" uid="uid://bthfdfd4vj5yw" path="res://sprites/ametista.png" id="8_l7cvg"]
+[ext_resource type="Script" path="res://scripts/item_slot/ametista_area_ingrediente.gd" id="8_n8ucn"]
+[ext_resource type="PackedScene" uid="uid://csqyqu260x2yg" path="res://cenas/ametista.tscn" id="9_ep84s"]
+[ext_resource type="Texture2D" uid="uid://lyo7abqcmeyl" path="res://sprites/ametista e coracao.png" id="9_s20r6"]
+[ext_resource type="Texture2D" uid="uid://cjj5571exuae6" path="res://sprites/po magico.png" id="10_bprum"]
+[ext_resource type="Script" path="res://scripts/item_slot/coracao_area_ingrediente.gd" id="11_cfmnq"]
+[ext_resource type="PackedScene" uid="uid://bypqrkb6jjwle" path="res://cenas/coracao.tscn" id="12_wfcy6"]
+[ext_resource type="Script" path="res://scripts/item_slot/po_area_ingrediente.gd" id="14_d40yh"]
+[ext_resource type="PackedScene" uid="uid://ip687gxm6tp8" path="res://cenas/po_magico.tscn" id="15_ni066"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3v15n"]
 size = Vector2(24, 23.7576)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2mybq"]
 size = Vector2(99, 99)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6i6cd"]
+size = Vector2(100.25, 100)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_flg2w"]
+size = Vector2(99, 95)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_37qxc"]
+size = Vector2(96, 102.5)
 
 [node name="itemSlot" type="Node2D"]
 
@@ -51,5 +69,53 @@ texture = ExtResource("4_gbc32")
 position = Vector2(92.5, 216)
 shape = SubResource("RectangleShape2D_2mybq")
 
+[node name="Ametista_Area" type="Area2D" parent="."]
+script = ExtResource("8_n8ucn")
+ametista_ingrediente = ExtResource("9_ep84s")
+
+[node name="Sprite2D" type="Sprite2D" parent="Ametista_Area"]
+position = Vector2(95, 323)
+scale = Vector2(7, 7)
+texture = ExtResource("8_l7cvg")
+region_enabled = true
+region_rect = Rect2(18, 18, 12, 13)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ametista_Area"]
+position = Vector2(92.875, 321)
+shape = SubResource("RectangleShape2D_6i6cd")
+
+[node name="Coracao_Area" type="Area2D" parent="."]
+script = ExtResource("11_cfmnq")
+coracao_ingrediente = ExtResource("12_wfcy6")
+
+[node name="Sprite2D" type="Sprite2D" parent="Coracao_Area"]
+position = Vector2(91, 429)
+scale = Vector2(10.5, 10.5)
+texture = ExtResource("9_s20r6")
+region_enabled = true
+region_rect = Rect2(55, 26, 9, 8)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Coracao_Area"]
+position = Vector2(92.5, 427.5)
+shape = SubResource("RectangleShape2D_flg2w")
+
+[node name="Po_Area" type="Area2D" parent="."]
+script = ExtResource("14_d40yh")
+po_ingrediente = ExtResource("15_ni066")
+
+[node name="Sprite2D" type="Sprite2D" parent="Po_Area"]
+position = Vector2(101, 528)
+scale = Vector2(6.07143, 6.07143)
+texture = ExtResource("10_bprum")
+region_enabled = true
+region_rect = Rect2(44, 41, 15, 14)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Po_Area"]
+position = Vector2(93, 533.25)
+shape = SubResource("RectangleShape2D_37qxc")
+
 [connection signal="input_event" from="Erva_Area" to="Erva_Area" method="_on_input_event"]
 [connection signal="input_event" from="Flor_Area" to="Flor_Area" method="_on_input_event"]
+[connection signal="input_event" from="Ametista_Area" to="Ametista_Area" method="_on_input_event"]
+[connection signal="input_event" from="Coracao_Area" to="Coracao_Area" method="_on_input_event"]
+[connection signal="input_event" from="Po_Area" to="Po_Area" method="_on_input_event"]

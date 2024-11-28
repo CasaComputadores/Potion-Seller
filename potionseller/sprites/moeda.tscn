@@ -7,6 +7,7 @@
 radius = 9.0
 
 [node name="Moeda" type="Node2D" groups=["moedas"]]
+scale = Vector2(0.3, 0.3)
 
 [node name="Area2D" type="Area2D" parent="." groups=["moedas"]]
 script = ExtResource("2_l0yt5")

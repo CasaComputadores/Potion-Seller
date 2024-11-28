@@ -4,6 +4,8 @@ extends Button
 @onready var click = preload("res://cenas/musicas/click.tscn")
 
 func _on_pressed() -> void:
+	Global.resetar_flor()
+	Global.resetar_erva()
 	get_tree().change_scene_to_file("res://cenas/menu.tscn")
 	var click_sound = click.instantiate()
 	add_child(click_sound)

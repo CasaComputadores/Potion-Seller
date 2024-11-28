@@ -11,13 +11,15 @@ height = 40.0
 script = ExtResource("1_328ha")
 
 [node name="flor" type="Sprite2D" parent="."]
+visibility_layer = 2
 scale = Vector2(3, 3)
 texture = ExtResource("1_ciiqs")
+region_enabled = true
+region_rect = Rect2(38, 27, 21, 41)
 
 [node name="Area2D" type="Area2D" parent="flor" groups=["ingredientes"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="flor/Area2D"]
-position = Vector2(-1, -2)
 shape = SubResource("CapsuleShape2D_l4xt2")
 
 [connection signal="input_event" from="flor/Area2D" to="." method="_on_area_2d_input_event"]

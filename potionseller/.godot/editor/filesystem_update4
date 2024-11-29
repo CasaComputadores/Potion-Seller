@@ -4,6 +4,4 @@ res://cenas/opcoes.tscn
 res://sprites/moeda.tscn
 res://cenas/npc/boneco_2.tscn
 res://cenas/caldeirao.tscn
-res://sprites/area_2d.gd
 res://cenas/ingredientes/flor.tscn
-res://scripts/boneco_2.gd

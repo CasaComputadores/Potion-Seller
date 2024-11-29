@@ -91,3 +91,30 @@ func incrementar_po():
 func decrementar_po(quantidade):
 	if po_criadas > 0:
 		po_criadas -= quantidade
+
+var bonecos = [
+	"res://cenas/npc/boneco_1.tscn",
+	"res://cenas/npc/boneco_2.tscn"
+]
+
+# Função para instanciar uma boneco aleatório
+func instantiate_random_scene(parent_node: Node, areaNPC: Area2D):
+	await get_tree().create_timer(1.0).timeout
+	
+	if bonecos.size() > 0:
+		# Escolhe um caminho de cena aleatoriamente
+		var random_index = randi() % bonecos.size()
+		var scene_path = bonecos[random_index]
+		
+		# Carrega a cena
+		var scene = load(scene_path).instantiate()
+		
+		scene.position = areaNPC.global_position
+		
+		# Instancia a cena no nó pai especificado
+		parent_node.add_child(scene)
+		print("boneco random add")
+		return scene
+	else:
+		print("O array de cenas está vazio.")
+		return null

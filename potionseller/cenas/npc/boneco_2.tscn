@@ -24,6 +24,7 @@ radius = 11.0
 height = 45.0
 
 [node name="boneco2" type="Node2D"]
+scale = Vector2(11, 11)
 script = ExtResource("1_n0sev")
 moedaDourada = ExtResource("2_12byl")
 

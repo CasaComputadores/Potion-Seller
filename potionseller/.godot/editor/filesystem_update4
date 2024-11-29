@@ -1,8 +1,10 @@
+res://cenas/moeda.tscn
+res://scripts/Global.gd
+res://cenas/npc/boneco_2.tscn
+res://scripts/boneco_2.gd
 res://cenas/jogo.tscn
 res://cenas/menu.tscn
 res://cenas/opcoes.tscn
-res://cenas/buttonCriarPocao.tscn
-res://cenas/caldeirao.tscn
-res://scripts/boneco_2.gd
-res://cenas/npc/boneco_2.tscn
-res://cenas/moeda.tscn
+res://scripts/jogo.gd
+res://cenas/npc/boneco_1.tscn
+res://cenas/npc/boneco_1.gd

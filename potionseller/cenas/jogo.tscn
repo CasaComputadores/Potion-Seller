@@ -28,7 +28,6 @@ texture = ExtResource("3_ufj0j")
 
 [node name="boneco2" parent="MarginContainer" instance=ExtResource("4_ggwoc")]
 position = Vector2(274, 363)
-scale = Vector2(11, 11)
 
 [node name="Area2D" parent="MarginContainer" instance=ExtResource("5_dliyo")]
 position = Vector2(68, 1000)
@@ -65,6 +64,9 @@ position = Vector2(1768, 72)
 
 [node name="Area2D" type="Area2D" parent="."]
 position = Vector2(165, 812)
+
+[node name="AreaNPC" type="Area2D" parent="."]
+position = Vector2(272, 363)
 
 [node name="HUD" type="CanvasLayer" parent="."]
 

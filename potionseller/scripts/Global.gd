@@ -1,5 +1,6 @@
 extends Node
 
+#ingredientes
 const LIMITE: int = 5
 
 var ervas_criadas: int = 0
@@ -8,6 +9,8 @@ var ametista_criadas: int = 0
 var coracao_criadas: int = 0
 var po_criadas: int = 0
 
+#moeda
+var contador_moeda = 0
 
 
 #erva

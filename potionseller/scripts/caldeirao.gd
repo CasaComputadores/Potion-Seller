@@ -6,6 +6,8 @@ extends Area2D
 @export var pocao_azul: PackedScene
 @export var pocao_amarela: PackedScene
 
+@export var botao_criar_scene: PackedScene
+
 var ingredientes_no_caldeirao: Array = []
 var botao_criar: Button
 
@@ -27,20 +29,27 @@ func _on_area_entered(area: Area2D) -> void:
 			ingredientes_no_caldeirao.append(ingrediente_nome)
 			parent.queue_free()
 			print("Ingrediente armazenado:", ingrediente_nome)
-			
-		
 		if not botao_criar:
 			gerar_botao_criar()
 
 func gerar_botao_criar() -> void:
-	botao_criar = Button.new()
-	botao_criar.text = "Criar"
-	botao_criar.anchor_left = 0.4
-	botao_criar.anchor_right = 0.6
-	botao_criar.anchor_top = 0.9
-	botao_criar.anchor_bottom = 1.0
-	botao_criar.pressed.connect(_on_criar_pocao)
-	get_tree().root.add_child(botao_criar)
+	if botao_criar_scene:
+		# Instancia o botão a partir da cena
+		var botao_instance = botao_criar_scene.instantiate() as Button
+		
+		# Configura o ancoramento do botão
+		botao_instance.anchor_left = 0.7
+		botao_instance.anchor_top = 0.9
+		botao_instance.anchor_bottom = 1.0
+		
+		# Conecta o sinal "pressed" ao método de criação da poção
+		botao_instance.pressed.connect(_on_criar_pocao)
+		
+		# Adiciona o botão à árvore de nós
+		get_tree().root.add_child(botao_instance)
+		
+		# Armazena a referência para futura remoção
+		botao_criar = botao_instance
 
 func _on_criar_pocao() -> void:
 	if ingredientes_no_caldeirao.size() > 0:

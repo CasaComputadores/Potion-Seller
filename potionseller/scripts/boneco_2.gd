@@ -17,5 +17,8 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				print("Moeda posicionada em:", moeda.position)
 				parent.queue_free()
 				print("Poção Vendida e moeda criada:", parent.name)
+				#desinstanciar o boneco
+				#wait(1 segundo)
+				#instantiate random (bonecos)
 			else:
 				print("Erro: moedaDourada não está configurada ou carregada.")

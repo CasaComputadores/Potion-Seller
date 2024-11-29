@@ -1,12 +1,12 @@
-CollisionShape2D
+AnimatedSprite2D
 Sprite2D
+Button
+CollisionShape2D
 Area2D
 AudioStreamPlayer
 AudioStreamPlayer2D
 Label
 CanvasLayer
-Button
-AnimatedSprite2D
 TextureRect
 MarginContainer
 TextEdit

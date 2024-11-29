@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4t0elf6dkrcd"]
+
+[ext_resource type="Script" path="res://scripts/pocao_azul_media.gd" id="1_25jcy"]
+[ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="2_dokse"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8smwr"]
+
+[node name="Node2D" type="Node2D" groups=["pocoes"]]
+scale = Vector2(4, 4)
+script = ExtResource("1_25jcy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_dokse")
+region_enabled = true
+region_rect = Rect2(37, 226, 20, 27)
+
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+shape = SubResource("CapsuleShape2D_8smwr")
+
+[connection signal="input_event" from="Sprite2D/Area2D" to="." method="_on_area_2d_input_event"]

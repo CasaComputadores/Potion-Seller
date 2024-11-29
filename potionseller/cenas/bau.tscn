@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cni4mpayauyn"]
+
+[ext_resource type="Script" path="res://scripts/JOGO/bau_sc.gd" id="1_tb580"]
+[ext_resource type="Texture2D" uid="uid://ba8gupsjvk27b" path="res://sprites/bau-dinheiro.png" id="1_wfx34"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvmsn"]
+size = Vector2(110, 78)
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_tb580")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_wfx34")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, -5)
+shape = SubResource("RectangleShape2D_vvmsn")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

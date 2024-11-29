@@ -50,6 +50,8 @@ func _on_criar_pocao() -> void:
 			contagem[ingrediente] = contagem.get(ingrediente, 0) + 1
 		print("Contagem dos ingredientes:", contagem)
 		
+		print(contagem)
+		
 		var mais_frequente = ""
 		var maior_quantidade = 0
 		for ingrediente in contagem.keys():
@@ -57,7 +59,6 @@ func _on_criar_pocao() -> void:
 				mais_frequente = ingrediente
 				maior_quantidade = contagem[ingrediente]
 		print("Ingrediente mais frequente:", mais_frequente)
-
 		var pocao: PackedScene
 		match mais_frequente:
 			"erva":

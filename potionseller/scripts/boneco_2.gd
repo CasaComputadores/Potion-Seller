@@ -3,7 +3,6 @@ extends Node2D
 @onready var areaMoeda = $"../../Area2D"
 @export var moedaDourada: PackedScene
 
-
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	print("Objeto entrou:", area.name)
 	if area.is_in_group("pocoes"):
@@ -12,13 +11,22 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 			if moedaDourada:
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
-				add_child(moeda) # Adiciona a moeda à cena atual
-				moeda.position = to_local(areaMoeda.global_position) 
+				
+				# Posiciona a moeda com base na posição global convertida para o local do nó 'areaMoeda'
+				moeda.position = areaMoeda.global_position
+
+				# Adiciona a moeda diretamente à árvore de nós principal (ou qualquer nó desejado)
+				get_tree().root.add_child(moeda)  # Ou get_tree().current_scene.add_child(moeda) se preferir
+
 				print("Moeda posicionada em:", moeda.position)
 				parent.queue_free()
 				print("Poção Vendida e moeda criada:", parent.name)
-				#desinstanciar o boneco
-				#wait(1 segundo)
-				#instantiate random (bonecos)
+
+				# Aguarda 1 segundo e depois remove o boneco
+				await get_tree().create_timer(1.0).timeout
+				
+				# Remove o boneco
+				queue_free()
+				
 			else:
 				print("Erro: moedaDourada não está configurada ou carregada.")

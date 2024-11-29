@@ -1,0 +1,88 @@
+[gd_scene load_steps=10 format=3 uid="uid://kct206fg1f37"]
+
+[ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
+[ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
+[ext_resource type="Texture2D" uid="uid://dvs220lrs2l1a" path="res://sprites/Fundo/Tela frente2.png" id="2_wl3pv"]
+[ext_resource type="Texture2D" uid="uid://p1ccgybgsi54" path="res://sprites/Fundo/Fundo tela atras.png" id="3_ufj0j"]
+[ext_resource type="PackedScene" uid="uid://55ny070r5pyj" path="res://cenas/npc/boneco_2.tscn" id="4_ggwoc"]
+[ext_resource type="PackedScene" uid="uid://cy04pep0kt4e1" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
+[ext_resource type="PackedScene" uid="uid://cni4mpayauyn" path="res://cenas/bau.tscn" id="5_dliyo"]
+[ext_resource type="PackedScene" uid="uid://da06ejaopfdnw" path="res://cenas/item_slot.tscn" id="5_u0jws"]
+[ext_resource type="FontFile" uid="uid://cescu06r2nw5f" path="res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf" id="9_6hty4"]
+
+[node name="Jogo" type="Node2D"]
+position = Vector2(0, -1)
+script = ExtResource("1_0diya")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("2_wl3pv")
+
+[node name="TextureRect2" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = ExtResource("3_ufj0j")
+
+[node name="boneco2" parent="MarginContainer" instance=ExtResource("4_ggwoc")]
+position = Vector2(274, 363)
+scale = Vector2(11, 11)
+
+[node name="Area2D" parent="MarginContainer" instance=ExtResource("5_dliyo")]
+position = Vector2(68, 1000)
+
+[node name="Window" type="Window" parent="."]
+initial_position = 1
+size = Vector2i(350, 200)
+visible = false
+borderless = true
+
+[node name="Camera2D" type="Camera2D" parent="Window"]
+
+[node name="VoltarButton" type="Button" parent="Window/Camera2D"]
+custom_minimum_size = Vector2(250, 40)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -20.0
+offset_right = 125.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Voltar"
+script = ExtResource("2_w0e0k")
+
+[node name="caldeirao" parent="." instance=ExtResource("4_pva1l")]
+position = Vector2(1771, 947)
+
+[node name="itemSlot" parent="." instance=ExtResource("5_u0jws")]
+position = Vector2(1768, 72)
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(165, 812)
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="Moeda" type="Label" parent="HUD"]
+anchors_preset = -1
+anchor_top = -0.00185185
+anchor_right = 0.00104167
+anchor_bottom = -0.00185185
+offset_left = 17.0
+offset_top = 912.0
+offset_right = 121.0
+offset_bottom = 951.0
+theme_override_fonts/font = ExtResource("9_6hty4")
+theme_override_font_sizes/font_size = 30
+text = "0"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
+[connection signal="mouse_entered" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_mouse_entered"]
+[connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]

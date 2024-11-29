@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://kct206fg1f37"]
 
 [ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
-[ext_resource type="Texture2D" uid="uid://hbxevumj0ubh" path="res://sprites/Fundo/Tela frente.png" id="2_7yocj"]
+[ext_resource type="Texture2D" uid="uid://bpkgts2j7yvad" path="res://sprites/Fundo/Tela frente2.png" id="2_e2dqw"]
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
 [ext_resource type="Texture2D" uid="uid://p1ccgybgsi54" path="res://sprites/Fundo/Fundo tela atras.png" id="3_ufj0j"]
 [ext_resource type="PackedScene" uid="uid://55ny070r5pyj" path="res://cenas/npc/boneco_2.tscn" id="4_ggwoc"]
@@ -20,7 +20,7 @@ offset_bottom = 1080.0
 
 [node name="TextureRect" type="TextureRect" parent="MarginContainer"]
 layout_mode = 2
-texture = ExtResource("2_7yocj")
+texture = ExtResource("2_e2dqw")
 
 [node name="TextureRect2" type="TextureRect" parent="MarginContainer"]
 layout_mode = 2

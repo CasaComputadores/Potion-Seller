@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhqat77rhf6aq"]
+
+[ext_resource type="Script" path="res://scripts/pocao_rosa_pequena.gd" id="1_5mjsn"]
+[ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_8qkk4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l35l2"]
+size = Vector2(6.22222, 8.44444)
+
+[node name="Node2D" type="Node2D" groups=["pocoes"]]
+scale = Vector2(4, 4)
+script = ExtResource("1_5mjsn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_8qkk4")
+region_enabled = true
+region_rect = Rect2(103, 135, 15, 21)
+
+[node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]
+scale = Vector2(3, 3)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D"]
+position = Vector2(7.94729e-08, -1.32455e-08)
+shape = SubResource("RectangleShape2D_l35l2")
+
+[connection signal="input_event" from="Sprite2D/Area2D" to="." method="_on_area_2d_input_event"]

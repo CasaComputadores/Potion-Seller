@@ -14,7 +14,7 @@ script = ExtResource("1_prtr1")
 scale = Vector2(5, 5)
 texture = ExtResource("2_qbc2j")
 region_enabled = true
-region_rect = Rect2(68, 191, 22, 30)
+region_rect = Rect2(3, 288, 23, 28)
 
 [node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]
 

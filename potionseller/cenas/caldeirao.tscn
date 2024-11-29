@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://cy04pep0kt4e1"]
+[gd_scene load_steps=20 format=3 uid="uid://cy04pep0kt4e1"]
 
 [ext_resource type="Texture2D" uid="uid://lq56p0e7x3ge" path="res://sprites/caldeirao.png" id="1_0mnng"]
 [ext_resource type="Script" path="res://scripts/caldeirao.gd" id="1_gwguk"]
@@ -7,7 +7,17 @@
 [ext_resource type="PackedScene" uid="uid://cny6u3l4fus3h" path="res://cenas/pocoes/pocao_rosa.tscn" id="4_flrf6"]
 [ext_resource type="PackedScene" uid="uid://qamxl4b01r3o" path="res://cenas/pocoes/pocao_azul.tscn" id="5_xh1di"]
 [ext_resource type="PackedScene" uid="uid://ccll4i0og3s7w" path="res://cenas/pocoes/pocao_amarela.tscn" id="6_f3aoe"]
+[ext_resource type="PackedScene" uid="uid://cotk2vw533ki2" path="res://cenas/pocoes/pocao_verde_pequena.tscn" id="7_bjsyk"]
 [ext_resource type="PackedScene" uid="uid://br6h702b0iv5g" path="res://cenas/buttonCriarPocao.tscn" id="7_icynm"]
+[ext_resource type="PackedScene" uid="uid://xvqqw0ow2atj" path="res://cenas/pocoes/pocao_verde_media.tscn" id="7_q587u"]
+[ext_resource type="PackedScene" uid="uid://kfax7obufd3x" path="res://cenas/pocoes/pocao_vermelha_media.tscn" id="8_3eo1t"]
+[ext_resource type="PackedScene" uid="uid://bnxhcqtyqhjxg" path="res://cenas/pocoes/pocao_vermelha_pequena.tscn" id="8_qqss1"]
+[ext_resource type="PackedScene" uid="uid://cdns5fbhw4btl" path="res://cenas/pocoes/pocao_rosa_media.tscn" id="9_duax6"]
+[ext_resource type="PackedScene" uid="uid://dhqat77rhf6aq" path="res://cenas/pocoes/pocao_rosa_pequena.tscn" id="9_xk81g"]
+[ext_resource type="PackedScene" uid="uid://c4t0elf6dkrcd" path="res://cenas/pocoes/pocao_azul_media.tscn" id="10_2m120"]
+[ext_resource type="PackedScene" uid="uid://b0swno47kchvs" path="res://cenas/pocoes/pocao_azul_pequeno.tscn" id="10_31p0a"]
+[ext_resource type="PackedScene" uid="uid://bjxofg6plcu8o" path="res://cenas/pocoes/pocao_amarela_media.tscn" id="11_0xvuc"]
+[ext_resource type="PackedScene" uid="uid://bhlpbrdxax45p" path="res://cenas/pocoes/pocao_amarela_pequena.tscn" id="11_k2h0n"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p7x1r"]
 radius = 142.032
@@ -19,6 +29,16 @@ pocao_vermelha = ExtResource("3_5i13x")
 pocao_rosa = ExtResource("4_flrf6")
 pocao_azul = ExtResource("5_xh1di")
 pocao_amarela = ExtResource("6_f3aoe")
+pocao_verde_media = ExtResource("7_q587u")
+pocao_vermelha_media = ExtResource("8_3eo1t")
+pocao_rosa_media = ExtResource("9_duax6")
+pocao_azul_media = ExtResource("10_2m120")
+pocao_amarela_media = ExtResource("11_0xvuc")
+pocao_verde_pequena = ExtResource("7_bjsyk")
+pocao_vermelha_pequena = ExtResource("8_qqss1")
+pocao_rosa_pequena = ExtResource("9_xk81g")
+pocao_azul_pequena = ExtResource("10_31p0a")
+pocao_amarela_pequena = ExtResource("11_k2h0n")
 botao_criar_scene = ExtResource("7_icynm")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

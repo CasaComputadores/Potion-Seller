@@ -6,6 +6,18 @@ extends Area2D
 @export var pocao_azul: PackedScene
 @export var pocao_amarela: PackedScene
 
+@export var pocao_verde_media: PackedScene
+@export var pocao_vermelha_media: PackedScene
+@export var pocao_rosa_media: PackedScene
+@export var pocao_azul_media: PackedScene
+@export var pocao_amarela_media: PackedScene
+
+@export var pocao_verde_pequena: PackedScene
+@export var pocao_vermelha_pequena: PackedScene
+@export var pocao_rosa_pequena: PackedScene
+@export var pocao_azul_pequena: PackedScene
+@export var pocao_amarela_pequena: PackedScene
+
 @export var botao_criar_scene: PackedScene
 
 var ingredientes_no_caldeirao: Array = []
@@ -63,24 +75,58 @@ func _on_criar_pocao() -> void:
 		
 		var mais_frequente = ""
 		var maior_quantidade = 0
+		var tanto_ingrediente = 0
 		for ingrediente in contagem.keys():
+			tanto_ingrediente += contagem[ingrediente]
+			print(tanto_ingrediente)
 			if contagem[ingrediente] > maior_quantidade:
 				mais_frequente = ingrediente
 				maior_quantidade = contagem[ingrediente]
+		
+		var quantidade_para_mist_pequena = 1
+		var quantidade_para_mist_media = 2
 		print("Ingrediente mais frequente:", mais_frequente)
 		var pocao: PackedScene
 		match mais_frequente:
 			"erva":
-				pocao = pocao_verde
+				if tanto_ingrediente == quantidade_para_mist_pequena:
+					pocao = pocao_verde_pequena
+				elif tanto_ingrediente == quantidade_para_mist_media:
+					pocao = pocao_verde_media
+				else:
+					pocao = pocao_verde
+				
 			"coracao":
-				pocao = pocao_vermelha
+				if tanto_ingrediente == quantidade_para_mist_pequena:
+					pocao = pocao_vermelha_pequena
+				elif tanto_ingrediente == quantidade_para_mist_media:
+					pocao = pocao_vermelha_media
+				else:
+					pocao = pocao_vermelha
+					
 			"ametista":
-				pocao = pocao_rosa
+				if tanto_ingrediente == quantidade_para_mist_pequena:
+					pocao = pocao_rosa_pequena
+				elif tanto_ingrediente == quantidade_para_mist_media:
+					pocao = pocao_rosa_media
+				else:
+					pocao = pocao_rosa
+					
 			"flor":
-				pocao = pocao_amarela
+				if tanto_ingrediente == quantidade_para_mist_pequena:
+					pocao = pocao_amarela_pequena
+				elif tanto_ingrediente == quantidade_para_mist_media:
+					pocao = pocao_amarela_media
+				else:
+					pocao = pocao_amarela
 			"po_magico":
-				pocao = pocao_azul
-
+				if tanto_ingrediente == quantidade_para_mist_pequena:
+					pocao = pocao_azul_pequena
+				elif tanto_ingrediente == quantidade_para_mist_media:
+					pocao = pocao_azul_media
+				else:
+					pocao = pocao_azul
+		#verifica se poção existe
 		if pocao:
 			print("Instanciando poção:", pocao)
 			var instancia_pocao = pocao.instantiate()

@@ -1,8 +1,8 @@
-AnimatedSprite2D
-Sprite2D
-Button
 CollisionShape2D
 Area2D
+Sprite2D
+AnimatedSprite2D
+Button
 AudioStreamPlayer
 AudioStreamPlayer2D
 Label

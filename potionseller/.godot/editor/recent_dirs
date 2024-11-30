@@ -1,7 +1,9 @@
-res://cenas/pocoes
-res://scripts
-res://sprites/potion
 res://cenas
+res://scripts
+res://cenas/npc
+res://sprites/Personagem 3
+res://cenas/pocoes
+res://sprites/potion
 res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel
 res://sprites/Fundo
 res://fontes/pixeloid-font

@@ -14,7 +14,6 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
 				
-				
 				# Posiciona a moeda com base na posição global convertida para o local do nó 'areaMoeda'
 				moeda.position = areaMoeda.global_position
 

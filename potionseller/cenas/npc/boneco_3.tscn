@@ -1,0 +1,65 @@
+[gd_scene load_steps=10 format=3 uid="uid://dmuppdth8okav"]
+
+[ext_resource type="Texture2D" uid="uid://blrql0jfus7lj" path="res://sprites/Personagem 3/Skelton.png" id="1_1c3fa"]
+[ext_resource type="Script" path="res://scripts/boneco_3.gd" id="1_ql8ao"]
+[ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_xpk5e"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dlsuc"]
+atlas = ExtResource("1_1c3fa")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f8ayw"]
+atlas = ExtResource("1_1c3fa")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jytxo"]
+atlas = ExtResource("1_1c3fa")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8yc1r"]
+atlas = ExtResource("1_1c3fa")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_oxe6i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dlsuc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f8ayw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jytxo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8yc1r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4ssy8"]
+radius = 9.0
+height = 54.0
+
+[node name="Node2D" type="Node2D"]
+z_index = -1
+scale = Vector2(11, 11)
+script = ExtResource("1_ql8ao")
+moedaDourada = ExtResource("2_xpk5e")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-0.272727, 2.72727)
+sprite_frames = SubResource("SpriteFrames_oxe6i")
+autoplay = "default"
+frame_progress = 0.153569
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
+position = Vector2(0.909091, 5.90909)
+shape = SubResource("CapsuleShape2D_4ssy8")
+
+[connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

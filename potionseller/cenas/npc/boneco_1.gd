@@ -7,13 +7,13 @@ extends Node2D
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	print("Objeto entrou:", area.name)
 	if area.is_in_group("pocoes"):
-		var parent = area.get_parent()
+		Global.diminuir_quantidade_pocao() #diminuindo a quantidade de pot global
+		var parent = area.get_parent() 
 		if parent:
 			if moedaDourada:
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
 				
-				print("caminho da areaMoeda: ", areaMoeda.get_path())
 				
 				# Posiciona a moeda com base na posição global convertida para o local do nó 'areaMoeda'
 				moeda.position = areaMoeda.global_position

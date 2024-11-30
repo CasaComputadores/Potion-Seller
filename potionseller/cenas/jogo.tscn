@@ -23,6 +23,7 @@ layout_mode = 2
 texture = ExtResource("2_wl3pv")
 
 [node name="TextureRect2" type="TextureRect" parent="MarginContainer"]
+z_index = -2
 layout_mode = 2
 texture = ExtResource("3_ufj0j")
 

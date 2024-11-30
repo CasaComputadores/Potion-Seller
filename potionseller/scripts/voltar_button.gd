@@ -6,6 +6,10 @@ extends Button
 func _on_pressed() -> void:
 	Global.resetar_flor()
 	Global.resetar_erva()
+	Global.resetar_coracao()
+	Global.resetar_ametista()
+	Global.resetar_po()
+	Global.resetar_pot()
 	get_tree().change_scene_to_file("res://cenas/menu.tscn")
 	var click_sound = click.instantiate()
 	add_child(click_sound)

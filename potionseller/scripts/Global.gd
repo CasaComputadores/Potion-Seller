@@ -98,7 +98,8 @@ func decrementar_po(quantidade):
 
 var bonecos = [
 	"res://cenas/npc/boneco_1.tscn",
-	"res://cenas/npc/boneco_2.tscn"
+	"res://cenas/npc/boneco_2.tscn",
+	"res://cenas/npc/boneco_3.tscn"
 ]
 
 # Função para instanciar uma boneco aleatório
@@ -133,3 +134,6 @@ func aumenta_quantidade_pocao():
 	
 func diminuir_quantidade_pocao():
 	contador_potion -= 1
+	
+func resetar_pot():
+	contador_potion = 0

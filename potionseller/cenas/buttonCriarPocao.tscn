@@ -60,14 +60,14 @@ theme_override_styles/pressed = SubResource("StyleBoxEmpty_hwda2")
 theme_override_styles/normal = SubResource("StyleBoxEmpty_wnque")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(125.75, 52)
+position = Vector2(125.75, 40)
 scale = Vector2(5.87209, 5)
 texture = ExtResource("1_6bk2n")
 region_enabled = true
 region_rect = Rect2(42, 53, 43, 21)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(126, 52)
+position = Vector2(126, 42)
 scale = Vector2(0.133984, 0.141797)
 sprite_frames = SubResource("SpriteFrames_s578k")
 autoplay = "default"

@@ -1,7 +1,9 @@
 extends Node
 
 #ingredientes
-const LIMITE: int = 5
+const LIMITE: int = 3
+
+const POT_LIMITE: int = 1
 
 var ervas_criadas: int = 0
 var flores_criadas: int = 0
@@ -12,6 +14,8 @@ var po_criadas: int = 0
 #moeda
 var contador_moeda = 0
 
+#pocao
+var contador_potion = 0
 
 #erva
 
@@ -118,3 +122,14 @@ func instantiate_random_scene(parent_node: Node, areaNPC: Area2D):
 	else:
 		print("O array de cenas está vazio.")
 		return null
+
+func verifica_quantidade_pocao():
+	if contador_potion < POT_LIMITE:
+		return true
+	return false
+	
+func aumenta_quantidade_pocao():
+	contador_potion += 1
+	
+func diminuir_quantidade_pocao():
+	contador_potion -= 1

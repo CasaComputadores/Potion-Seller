@@ -30,19 +30,20 @@ func _ready() -> void:
 		botao_criar = null
 
 func _on_area_entered(area: Area2D) -> void:
-	print("Objeto entrou:", area.name)
-	
-	if area.is_in_group("ingredientes"):
-		var parent = area.get_parent()
+	if Global.verifica_quantidade_pocao(): #verifica se a quantidade de poção pode 
+		print("Objeto entrou:", area.name)
 		
-		if parent:
-			# Identifica qual ingrediente foi adicionado
-			var ingrediente_nome = parent.name
-			ingredientes_no_caldeirao.append(ingrediente_nome)
-			parent.queue_free()
-			print("Ingrediente armazenado:", ingrediente_nome)
-		if not botao_criar:
-			gerar_botao_criar()
+		if area.is_in_group("ingredientes"):
+			var parent = area.get_parent()
+			
+			if parent:
+				# Identifica qual ingrediente foi adicionado
+				var ingrediente_nome = parent.name
+				ingredientes_no_caldeirao.append(ingrediente_nome)
+				parent.queue_free()
+				print("Ingrediente armazenado:", ingrediente_nome)
+			if not botao_criar:
+				gerar_botao_criar()
 
 func gerar_botao_criar() -> void:
 	if botao_criar_scene:
@@ -64,7 +65,7 @@ func gerar_botao_criar() -> void:
 		botao_criar = botao_instance
 
 func _on_criar_pocao() -> void:
-	if ingredientes_no_caldeirao.size() > 0:
+	if ingredientes_no_caldeirao.size() > 0: 
 		print("Ingredientes no caldeirão:", ingredientes_no_caldeirao)
 		var contagem = {}
 		for ingrediente in ingredientes_no_caldeirao:
@@ -126,6 +127,7 @@ func _on_criar_pocao() -> void:
 					pocao = pocao_azul_media
 				else:
 					pocao = pocao_azul
+		Global.aumenta_quantidade_pocao() #aumenta o numero global da pot
 		#verifica se poção existe
 		if pocao:
 			print("Instanciando poção:", pocao)

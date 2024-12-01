@@ -13,12 +13,33 @@ func _ready() -> void:
 			button.connect("mouse_entered", Callable(self, "_on_button_mouse_entered"))
 			button.connect("pressed", Callable(self, "_on_button_pressed"))
 
-func _on_button_mouse_entered():
+
+func _on_jogar_button_mouse_entered() -> void:
 	var hover_sound = hover_sound_scene.instantiate()
 	add_child(hover_sound)
 	hover_sound.play()
 
-func _on_button_pressed():
+func _on_jogar_button_pressed() -> void:
+	var click_sound = click_sound_scene.instantiate()
+	add_child(click_sound)
+	click_sound.play()
+
+func _on_opcoes_button_mouse_entered() -> void:
+	var hover_sound = hover_sound_scene.instantiate()
+	add_child(hover_sound)
+	hover_sound.play()
+
+func _on_opcoes_button_pressed() -> void:
+	var click_sound = click_sound_scene.instantiate()
+	add_child(click_sound)
+	click_sound.play()
+
+func _on_sair_button_mouse_entered() -> void:
+	var hover_sound = hover_sound_scene.instantiate()
+	add_child(hover_sound)
+	hover_sound.play()
+
+func _on_sair_button_pressed() -> void:
 	var click_sound = click_sound_scene.instantiate()
 	add_child(click_sound)
 	click_sound.play()

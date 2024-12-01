@@ -10,10 +10,10 @@ func _on_pressed() -> void:
 	Global.resetar_ametista()
 	Global.resetar_po()
 	Global.resetar_pot()
-	get_tree().change_scene_to_file("res://cenas/menu.tscn")
 	var click_sound = click.instantiate()
 	add_child(click_sound)
 	click_sound.play()
+	get_tree().change_scene_to_file("res://cenas/menu.tscn")
 
 func _on_mouse_entered() -> void:
 	var hover_sound = hover.instantiate()

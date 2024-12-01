@@ -1,9 +1,11 @@
-res://cenas/balao_pocao.tscn
-res://scripts/balao_pocao.gd
-res://cenas/jogo.tscn
 res://cenas/menu.tscn
-res://cenas/npc/boneco_1.gd
-res://scripts/boneco_2.gd
+res://cenas/jogo.tscn
+res://cenas/balao_pocao.tscn
 res://cenas/npc/boneco_2.tscn
 res://cenas/pocoes/pocao_amarela.tscn
 res://cenas/buttonCriarPocao.tscn
+res://scripts/boneco_2.gd
+res://scripts/menu.gd
+res://scripts/jogar_button.gd
+res://scripts/voltar_button.gd
+res://scripts/sair_button.gd

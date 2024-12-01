@@ -2,18 +2,22 @@ extends Node2D
 
 @onready var areaMoeda = $"/root/Jogo/Area2D"
 @onready var areaNPC = $"/root/Jogo/AreaNPC"
+@onready var balao = $BalaoPocao
 @export var moedaDourada: PackedScene
+
+func _ready():
+	balao.show_balloon()
+	print("chamando o balao")
 
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	print("Objeto entrou:", area.name)
 	if area.is_in_group("pocoes"):
 		Global.diminuir_quantidade_pocao() #diminuindo a quantidade de pot global
-		var parent = area.get_parent() 
+		var parent = area.get_parent()
 		if parent:
 			if moedaDourada:
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
-				
 				
 				# Posiciona a moeda com base na posição global convertida para o local do nó 'areaMoeda'
 				moeda.position = areaMoeda.global_position

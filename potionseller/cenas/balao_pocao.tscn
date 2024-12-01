@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dttwpqnfhjfpt"]
+
+[ext_resource type="Texture2D" uid="uid://dti70xmvmt6my" path="res://sprites/balao.png" id="1_3eg1c"]
+[ext_resource type="Script" path="res://scripts/balao_pocao.gd" id="1_c4qvx"]
+
+[node name="BalaoPocao" type="Node2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_c4qvx")
+
+[node name="Balao" type="Sprite2D" parent="."]
+texture = ExtResource("1_3eg1c")
+
+[node name="Pocao" type="Sprite2D" parent="."]
+offset = Vector2(1, -5)

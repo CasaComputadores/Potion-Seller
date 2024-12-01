@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://55ny070r5pyj"]
+[gd_scene load_steps=8 format=3 uid="uid://55ny070r5pyj"]
 
 [ext_resource type="Texture2D" uid="uid://k1m8k3q8vvr0" path="res://sprites/Personagem 2/pixil-frame-0.png" id="1_38s5h"]
 [ext_resource type="Script" path="res://scripts/boneco_2.gd" id="1_n0sev"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_12byl"]
 [ext_resource type="Texture2D" uid="uid://dajs5tbws8kg2" path="res://sprites/Personagem 2/pixil-frame-1.png" id="2_bit8b"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="3_er8lh"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_s3nho"]
 animations = [{
@@ -39,5 +40,8 @@ position = Vector2(2, 4)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
 position = Vector2(-1, -3.5)
 shape = SubResource("CapsuleShape2D_eyo0h")
+
+[node name="BalaoPocao" parent="." instance=ExtResource("3_er8lh")]
+position = Vector2(-13.5455, -22.9091)
 
 [connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

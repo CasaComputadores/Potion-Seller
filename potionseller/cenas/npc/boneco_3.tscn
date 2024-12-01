@@ -1,8 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://dmuppdth8okav"]
+[gd_scene load_steps=11 format=3 uid="uid://dmuppdth8okav"]
 
 [ext_resource type="Texture2D" uid="uid://blrql0jfus7lj" path="res://sprites/Personagem 3/Skelton.png" id="1_1c3fa"]
 [ext_resource type="Script" path="res://scripts/boneco_3.gd" id="1_ql8ao"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_xpk5e"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="4_d5kta"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dlsuc"]
 atlas = ExtResource("1_1c3fa")
@@ -61,5 +62,8 @@ frame_progress = 0.153569
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
 position = Vector2(0.909091, 5.90909)
 shape = SubResource("CapsuleShape2D_4ssy8")
+
+[node name="BalaoPocao" parent="." instance=ExtResource("4_d5kta")]
+position = Vector2(-14.2727, -20)
 
 [connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

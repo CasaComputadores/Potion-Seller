@@ -1,7 +1,7 @@
 extends Node
 
 #ingredientes
-const LIMITE: int = 3
+const LIMITE: int = 2
 
 const POT_LIMITE: int = 1
 

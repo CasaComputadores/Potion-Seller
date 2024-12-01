@@ -23,7 +23,7 @@ func _on_jogar_button_pressed() -> void:
 	var click_sound = click_sound_scene.instantiate()
 	add_child(click_sound)
 	click_sound.play()
-
+ 
 func _on_opcoes_button_mouse_entered() -> void:
 	var hover_sound = hover_sound_scene.instantiate()
 	add_child(hover_sound)

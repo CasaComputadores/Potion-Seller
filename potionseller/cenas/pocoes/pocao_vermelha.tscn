@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bklys0gw4eayb"]
 
 [ext_resource type="Script" path="res://scripts/pocao_vermelha.gd" id="1_prtr1"]
-[ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="2_qbc2j"]
+[ext_resource type="Texture2D" uid="uid://bm8ir3sj8skhs" path="res://sprites/potion/Vermelha grande.png" id="2_xugll"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_t5xth"]
 radius = 11.0
@@ -12,8 +12,7 @@ script = ExtResource("1_prtr1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(5, 5)
-texture = ExtResource("2_qbc2j")
-region_enabled = true
+texture = ExtResource("2_xugll")
 region_rect = Rect2(3, 288, 23, 28)
 
 [node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]

@@ -8,7 +8,11 @@ scale = Vector2(0.5, 0.5)
 script = ExtResource("1_c4qvx")
 
 [node name="Balao" type="Sprite2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(1, 1.1875)
 texture = ExtResource("1_3eg1c")
 
 [node name="Pocao" type="Sprite2D" parent="."]
+position = Vector2(0, -2)
+scale = Vector2(0.7, 0.7)
 offset = Vector2(1, -5)

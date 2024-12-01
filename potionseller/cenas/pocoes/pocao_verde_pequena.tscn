@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cotk2vw533ki2"]
 
 [ext_resource type="Script" path="res://scripts/pocao_verde_pequena.gd" id="1_8do5d"]
-[ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_68m1j"]
+[ext_resource type="Texture2D" uid="uid://ciovcgybnol8w" path="res://sprites/potion/Verde pequena.png" id="2_kban8"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_41uhw"]
 radius = 8.0
@@ -12,8 +12,7 @@ scale = Vector2(4, 4)
 script = ExtResource("1_8do5d")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_68m1j")
-region_enabled = true
+texture = ExtResource("2_kban8")
 region_rect = Rect2(7, 167, 15, 21)
 
 [node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]

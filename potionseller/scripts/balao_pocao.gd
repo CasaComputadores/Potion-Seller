@@ -2,19 +2,38 @@ extends Node2D
 
 # Array contendo os caminhos das texturas das poções
 @export var potions := [
-	preload("res://sprites/moeda.png"),
-	preload("res://sprites/erva.png")
+	preload("res://sprites/potion/Amarelo medio.png"),
+	preload("res://sprites/potion/Amarelo pequeno.png"),
+	preload("res://sprites/potion/Amerelo grande.png"),
+	preload("res://sprites/potion/Azul grande.png"),
+	preload("res://sprites/potion/Azul media.png"),
+	preload("res://sprites/potion/Azul pequena.png"),
+	preload("res://sprites/potion/Rosa grande.png"),
+	preload("res://sprites/potion/Rosa media.png"),
+	preload("res://sprites/potion/Rosa pequeno.png"),
+	preload("res://sprites/potion/Verde grande.png"),
+	preload("res://sprites/potion/Verde media.png"),
+	preload("res://sprites/potion/Verde pequena.png"),
+	preload("res://sprites/potion/Vermelha grande.png"),
+	preload("res://sprites/potion/Vermelha media.png"),
+	preload("res://sprites/potion/Vermelha pequena.png")
 ]
 
 # Referência ao Sprite da poção
 @onready var potion_sprite := $Pocao
+var pocao_escolhida
 
 # Função para definir uma poção aleatória no balão
 func show_random_potion():
 	var random_potion = potions[randi() % potions.size()]
 	potion_sprite.texture = random_potion
+	pocao_escolhida = potion_sprite.texture
 	potion_sprite.visible = true  # Certifique-se de que o Sprite da poção está visível
 	print("poçao a mostra")
+	return pocao_escolhida
+	
+func getPocao():
+	return pocao_escolhida
 
 # Função para ocultar o balão (se necessário)
 func hide_balloon():

@@ -1,18 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733064167
+::res://::1733071222
 default_bus_layout.tres::AudioBusLayout::4075407599321768781::1732719104::0::1::::<><>::
-::res://cenas/::1733064440
+::res://cenas/::1733071137
 ametista.tscn::PackedScene::6070757471084179594::1732488822::0::1::::<><>::res://scripts/ametista.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
-balao_pocao.tscn::PackedScene::8533436678971441085::1733064423::0::1::::<><>::uid://dti70xmvmt6my::::res://sprites/balao.png<>res://scripts/balao_pocao.gd
+balao_pocao.tscn::PackedScene::8533436678971441085::1733065063::0::1::::<><>::uid://dti70xmvmt6my::::res://sprites/balao.png<>res://scripts/balao_pocao.gd
 bau.tscn::PackedScene::167752775528579533::1732894610::0::1::::<><>::res://scripts/JOGO/bau_sc.gd<>uid://ba8gupsjvk27b::::res://sprites/bau-dinheiro.png
-buttonCriarPocao.tscn::PackedScene::3644110255142482950::1733064423::0::1::::<><>::uid://b1tgx6thswcm4::::res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel/botao misturar.png<>uid://b7gtuky6sc80q::::res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel/Fire_Spreadsheet.png
+buttonCriarPocao.tscn::PackedScene::3644110255142482950::1733065063::0::1::::<><>::uid://b1tgx6thswcm4::::res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel/botao misturar.png<>uid://b7gtuky6sc80q::::res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel/Fire_Spreadsheet.png
 caldeirao.tscn::PackedScene::6510770872664770862::1732988131::0::1::::<><>::uid://lq56p0e7x3ge::::res://sprites/caldeirao.png<>res://scripts/caldeirao.gd<>uid://bqaxu5rx28weu::::res://cenas/pocoes/pocao_verde.tscn<>uid://bklys0gw4eayb::::res://cenas/pocoes/pocao_vermelha.tscn<>uid://cny6u3l4fus3h::::res://cenas/pocoes/pocao_rosa.tscn<>uid://qamxl4b01r3o::::res://cenas/pocoes/pocao_azul.tscn<>uid://ccll4i0og3s7w::::res://cenas/pocoes/pocao_amarela.tscn<>uid://cotk2vw533ki2::::res://cenas/pocoes/pocao_verde_pequena.tscn<>uid://br6h702b0iv5g::::res://cenas/buttonCriarPocao.tscn<>uid://xvqqw0ow2atj::::res://cenas/pocoes/pocao_verde_media.tscn<>uid://kfax7obufd3x::::res://cenas/pocoes/pocao_vermelha_media.tscn<>uid://bnxhcqtyqhjxg::::res://cenas/pocoes/pocao_vermelha_pequena.tscn<>uid://cdns5fbhw4btl::::res://cenas/pocoes/pocao_rosa_media.tscn<>uid://dhqat77rhf6aq::::res://cenas/pocoes/pocao_rosa_pequena.tscn<>uid://c4t0elf6dkrcd::::res://cenas/pocoes/pocao_azul_media.tscn<>uid://b0swno47kchvs::::res://cenas/pocoes/pocao_azul_pequeno.tscn<>uid://bjxofg6plcu8o::::res://cenas/pocoes/pocao_amarela_media.tscn<>uid://bhlpbrdxax45p::::res://cenas/pocoes/pocao_amarela_pequena.tscn
 coracao.tscn::PackedScene::4102920955896632138::1732488823::0::1::::<><>::res://scripts/coracao.gd<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png
 erva.tscn::PackedScene::2838733823879117234::1732488823::0::1::::<><>::res://scripts/ingrediente.gd<>uid://bid6p2f33pr2v::::res://sprites/erva.png
 flor.tscn::PackedScene::4616455551927529887::1732488824::0::1::::<><>::res://scripts/flor.gd<>uid://ctyybdwsjidki::::res://sprites/flor.png
 item_slot.tscn::PackedScene::7212761338248670260::1732813058::0::1::::<><>::uid://cdrkm5o88x1o6::::res://sprites/inventory.png<>res://scripts/erva_area_ingredientes.gd<>uid://bgpdschug7tju::::res://cenas/erva.tscn<>uid://bid6p2f33pr2v::::res://sprites/erva.png<>uid://ctyybdwsjidki::::res://sprites/flor.png<>res://scripts/item_slot/flor_area_ingrediente.gd<>uid://b61il33f4nntn::::res://cenas/flor.tscn<>uid://bthfdfd4vj5yw::::res://sprites/ametista.png<>res://scripts/item_slot/ametista_area_ingrediente.gd<>uid://csqyqu260x2yg::::res://cenas/ametista.tscn<>uid://lyo7abqcmeyl::::res://sprites/ametista e coracao.png<>uid://cjj5571exuae6::::res://sprites/po magico.png<>res://scripts/item_slot/coracao_area_ingrediente.gd<>uid://bypqrkb6jjwle::::res://cenas/coracao.tscn<>res://scripts/item_slot/po_area_ingrediente.gd<>uid://ip687gxm6tp8::::res://cenas/po_magico.tscn
-jogo.tscn::PackedScene::707220392395352700::1733064299::0::1::::<><>::res://scripts/jogo.gd<>res://scripts/voltar_button.gd<>uid://dvs220lrs2l1a::::res://sprites/Fundo/Tela frente2.png<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://cni4mpayauyn::::res://cenas/bau.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
-menu.tscn::PackedScene::4139118370677546283::1733064299::0::1::::<><>::res://scripts/menu.gd<>uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd<>uid://rdxk5um62khl::::res://sprites/Botao play.png<>uid://kllv3w4mvi36::::res://sprites/Botao conf.png<>uid://cv105mw1ex08j::::res://musica/UI Soundpack/UI Soundpack/WAV/Retro1.wav<>uid://bo5p7ovdicvsj::::res://sprites/Botao sair.png<>uid://dxxfg0e7qris5::::res://sprites/logo potion seller.png
+jogo.tscn::PackedScene::707220392395352700::1733065063::0::1::::<><>::res://scripts/jogo.gd<>res://scripts/voltar_button.gd<>uid://dvs220lrs2l1a::::res://sprites/Fundo/Tela frente2.png<>uid://p1ccgybgsi54::::res://sprites/Fundo/Fundo tela atras.png<>uid://55ny070r5pyj::::res://cenas/npc/boneco_2.tscn<>uid://cy04pep0kt4e1::::res://cenas/caldeirao.tscn<>uid://cni4mpayauyn::::res://cenas/bau.tscn<>uid://da06ejaopfdnw::::res://cenas/item_slot.tscn<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
+menu.tscn::PackedScene::4139118370677546283::1733071137::0::1::::<><>::res://scripts/menu.gd<>uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/jogar_button.gd<>res://scripts/opcoes_button.gd<>uid://c1850qmeh1v6h::::res://fontes/old-english-gothic-pixel-font/OldEnglishGothicPixelRegular-gx1jp.otf<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf<>res://scripts/sair_button.gd<>uid://rdxk5um62khl::::res://sprites/Botao play.png<>uid://kllv3w4mvi36::::res://sprites/Botao conf.png<>uid://bo5p7ovdicvsj::::res://sprites/Botao sair.png<>uid://dxxfg0e7qris5::::res://sprites/logo potion seller.png
 moeda.tscn::PackedScene::8864835321986903587::1733063393::0::1::::<><>::uid://dk1pehd2vs7r::::res://sprites/moeda.png<>res://sprites/area_2d.gd
 opcoes.tscn::PackedScene::5697341940114929448::1733063346::0::1::::<><>::uid://dcx0tmve0dnvf::::res://sprites/Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg<>res://scripts/opcoes.gd<>res://scripts/voltar_button.gd<>uid://cescu06r2nw5f::::res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf
 pocao_amarela.tscn::PackedScene::2537895342937731460::1732488826::0::1::::<><>::res://scripts/pocao_amarela.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
@@ -29,12 +29,12 @@ po_magico.tscn::PackedScene::7366866627894394920::1732481023::0::1::::<><>::uid:
 click.tscn::PackedScene::7819729829375989803::1732726142::0::1::::<><>::uid://cv105mw1ex08j::::res://musica/UI Soundpack/UI Soundpack/WAV/Retro1.wav
 hover.tscn::PackedScene::7956423253255865416::1732718897::0::1::::<><>::uid://xpuivgtyjnvc::::res://musica/UI Soundpack/UI Soundpack/WAV/Minimalist3.wav
 musica_menu.tscn::PackedScene::9027602135544595259::1732726142::0::1::::<><>::uid://ptck0j0dfo6y::::res://musica/Pixel RPG Music Pack/Pixel 11.ogg
-::res://cenas/npc/::1733064440
-boneco_1.tscn::PackedScene::3407428632598493449::1733063919::0::1::::<><>::uid://bfc5kuo8d2ir2::::res://sprites/Personagem 1/sprite_0.png<>res://scripts/boneco_1.gd<>uid://50u2ykhuuks5::::res://sprites/Personagem 1/sprite_1.png<>uid://dykgsph0fwuk6::::res://cenas/moeda.tscn<>uid://rdmplmsj2nd1::::res://sprites/Personagem 1/sprite_2.png
-boneco_2.tscn::PackedScene::2168430185399741845::1733064423::0::1::::<><>::uid://k1m8k3q8vvr0::::res://sprites/Personagem 2/pixil-frame-0.png<>res://scripts/boneco_2.gd<>uid://dykgsph0fwuk6::::res://cenas/moeda.tscn<>uid://dajs5tbws8kg2::::res://sprites/Personagem 2/pixil-frame-1.png<>uid://dttwpqnfhjfpt::::res://cenas/balao_pocao.tscn
+::res://cenas/npc/::1733071084
+boneco_1.tscn::PackedScene::3407428632598493449::1733071084::0::1::::<><>::uid://bfc5kuo8d2ir2::::res://sprites/Personagem 1/sprite_0.png<>res://scripts/boneco_1.gd<>uid://50u2ykhuuks5::::res://sprites/Personagem 1/sprite_1.png<>uid://dykgsph0fwuk6::::res://cenas/moeda.tscn<>uid://rdmplmsj2nd1::::res://sprites/Personagem 1/sprite_2.png
+boneco_2.tscn::PackedScene::2168430185399741845::1733065063::0::1::::<><>::uid://k1m8k3q8vvr0::::res://sprites/Personagem 2/pixil-frame-0.png<>res://scripts/boneco_2.gd<>uid://dykgsph0fwuk6::::res://cenas/moeda.tscn<>uid://dajs5tbws8kg2::::res://sprites/Personagem 2/pixil-frame-1.png<>uid://dttwpqnfhjfpt::::res://cenas/balao_pocao.tscn
 boneco_3.tscn::PackedScene::8043753458901000925::1733063393::0::1::::<><>::uid://blrql0jfus7lj::::res://sprites/Personagem 3/Skelton.png<>res://scripts/boneco_3.gd<>uid://dykgsph0fwuk6::::res://cenas/moeda.tscn
-::res://cenas/pocoes/::1733064300
-pocao_amarela.tscn::PackedScene::4936647344352745438::1733064299::0::1::::<><>::res://scripts/pocao_amarela.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
+::res://cenas/pocoes/::1733065063
+pocao_amarela.tscn::PackedScene::4936647344352745438::1733065063::0::1::::<><>::res://scripts/pocao_amarela.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_amarela_media.tscn::PackedScene::3066460295372394016::1732909751::0::1::::<><>::res://scripts/pocao_amarela_media.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_amarela_pequena.tscn::PackedScene::2901364183716706135::1732909751::0::1::::<><>::res://scripts/pocao_amarela_pequena.gd<>uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png
 pocao_azul.tscn::PackedScene::1123791798017594314::1732489210::0::1::::<><>::uid://b1bj5kdt4r7ej::::res://sprites/potion/potion.png<>res://scripts/pocao_azul.gd
@@ -78,7 +78,7 @@ Pixel 11.ogg::AudioStreamOggVorbis::1092196451949305126::1679302389::1733064170:
 ::res://musica/UI Soundpack/UI Soundpack/WAV/::1733064172
 Minimalist3.wav::AudioStreamWAV::1646538809347104040::1632765427::1733064172::1::::<><>::
 Retro1.wav::AudioStreamWAV::6302053069480244103::1632765415::1733064172::1::::<><>::
-::res://scripts/::1733064440
+::res://scripts/::1733071137
 ametista.gd::GDScript::-1::1732458422::0::1::::<>Node2D<>::
 balao_pocao.gd::GDScript::-1::1733063919::0::1::::<>Node2D<>::
 boneco_1.gd::GDScript::-1::1733063919::0::1::::<>Node2D<>::
@@ -90,10 +90,10 @@ erva_area_ingredientes.gd::GDScript::-1::1732813058::0::1::::<>Area2D<>::
 flor.gd::GDScript::-1::1732425125::0::1::::<>Node2D<>::
 Global.gd::GDScript::-1::1732997166::0::1::::<>Node<>::
 ingrediente.gd::GDScript::-1::1732478681::0::1::::<>Node2D<>::
-jogar_button.gd::GDScript::-1::1728049217::0::1::::<>Button<>::
+jogar_button.gd::GDScript::-1::1733064745::0::1::::<>Button<>::
 jogo.gd::GDScript::-1::1732906933::0::1::::<>Node2D<>::
-logo potion seller.png::CompressedTexture2D::2959940964767007870::1733064440::1733064525::1::::<><>::
-menu.gd::GDScript::-1::1732718213::0::1::::<>Node2D<>::
+logo potion seller.png::CompressedTexture2D::2959940964767007870::1733071084::1733071224::1::::<><>::
+menu.gd::GDScript::-1::1733071137::0::1::::<>Node2D<>::
 opcoes.gd::GDScript::-1::1732720240::0::1::::<>Node2D<>::
 opcoes_button.gd::GDScript::-1::1728049226::0::1::::<>Button<>::
 pocao_amarela.gd::GDScript::-1::1732480514::0::1::::<>Node2D<>::
@@ -112,8 +112,8 @@ pocao_vermelha.gd::GDScript::-1::1732480771::0::1::::<>Node2D<>::
 pocao_vermelha_media.gd::GDScript::-1::1732909751::0::1::::<>Node2D<>::
 pocao_vermelha_pequena.gd::GDScript::-1::1732909751::0::1::::<>Node2D<>::
 po_magico.gd::GDScript::-1::1732410448::0::1::::<>Node2D<>::
-sair_button.gd::GDScript::-1::1728048740::0::1::::<>Button<>::
-voltar_button.gd::GDScript::-1::1732997166::0::1::::<>Button<>::
+sair_button.gd::GDScript::-1::1733071137::0::1::::<>Button<>::
+voltar_button.gd::GDScript::-1::1733071137::0::1::::<>Button<>::
 ::res://scripts/item_slot/::1732813058
 ametista_area_ingrediente.gd::GDScript::-1::1732813058::0::1::::<>Area2D<>::
 coracao_area_ingrediente.gd::GDScript::-1::1732813058::0::1::::<>Area2D<>::
@@ -121,22 +121,22 @@ flor_area_ingrediente.gd::GDScript::-1::1732813058::0::1::::<>Area2D<>::
 po_area_ingrediente.gd::GDScript::-1::1732813058::0::1::::<>Area2D<>::
 ::res://scripts/JOGO/::1732884175
 bau_sc.gd::GDScript::-1::1732884175::0::1::::<>Area2D<>::
-::res://sprites/::1733064440
+::res://sprites/::1733071084
 ametista e coracao.png::CompressedTexture2D::822529531694398987::1732458183::1733064170::1::::<><>::
 ametista.png::CompressedTexture2D::3734768568036925366::1732458254::1733064170::1::::<><>::
 area_2d.gd::GDScript::-1::1732809723::0::1::::<>Area2D<>::
 balao.png::CompressedTexture2D::8511353918396215204::1733063919::1733064525::1::::<><>::
 bau-dinheiro.png::CompressedTexture2D::2454945983505909229::1732884175::1733064170::1::::<><>::
-Botao conf.png::CompressedTexture2D::725303486241415423::1733064440::1733064525::1::::<><>::
-Botao play.png::CompressedTexture2D::1200819431065724649::1733064440::1733064525::1::::<><>::
-Botao sair.png::CompressedTexture2D::3431964495458696561::1733064440::1733064525::1::::<><>::
-button UI.png::CompressedTexture2D::5255421183427924052::1733064440::1733064525::1::::<><>::
+Botao conf.png::CompressedTexture2D::725303486241415423::1733071084::1733071224::1::::<><>::
+Botao play.png::CompressedTexture2D::1200819431065724649::1733071084::1733071224::1::::<><>::
+Botao sair.png::CompressedTexture2D::3431964495458696561::1733071084::1733071224::1::::<><>::
+button UI.png::CompressedTexture2D::5255421183427924052::1733071084::1733071224::1::::<><>::
 caldeirao.png::CompressedTexture2D::806985020173161912::1728401291::1733064171::1::::<><>::
 erva.png::CompressedTexture2D::2956035006908568679::1728401291::1733064171::1::::<><>::
 flor.png::CompressedTexture2D::6157433648612482552::1732424996::1733064171::1::::<><>::
 Imagem do WhatsApp de 2024-10-05 à(s) 18.43.14_b34c225b.jpg::CompressedTexture2D::7348672944538475627::1728164761::1733064171::1::::<><>::
 inventory.png::CompressedTexture2D::5019132518446007627::1732406674::1733064171::1::::<><>::
-logo potion seller.png::CompressedTexture2D::8821401763563648810::1733064440::1733064525::1::::<><>::
+logo potion seller.png::CompressedTexture2D::8821401763563648810::1733071084::1733071224::1::::<><>::
 moeda.png::CompressedTexture2D::232815958255462545::1732809723::1733064171::1::::<><>::
 po magico.png::CompressedTexture2D::5424997164640555447::1732408248::1733064171::1::::<><>::
 telaprincipal.png::CompressedTexture2D::8405345875308983623::1728401291::1733064171::1::::<><>::
@@ -157,20 +157,20 @@ pixil-frame-0.png::CompressedTexture2D::756350362357878375::1732424084::17330641
 pixil-frame-1.png::CompressedTexture2D::7178988931066183735::1732424084::1733064171::1::::<><>::
 ::res://sprites/Personagem 3/::1733064172
 Skelton.png::CompressedTexture2D::3194584828389332783::1732997166::1733064172::1::::<><>::
-::res://sprites/potion/::1733064440
-Amarelo medio.png::CompressedTexture2D::8869015971262624095::1733064440::1733064525::1::::<><>::
-Amarelo pequeno.png::CompressedTexture2D::5145543662217006436::1733064440::1733064525::1::::<><>::
-Amerelo grande.png::CompressedTexture2D::8584825882602528003::1733064440::1733064525::1::::<><>::
-Azul grande.png::CompressedTexture2D::2691348474285816353::1733064440::1733064525::1::::<><>::
-Azul media.png::CompressedTexture2D::2707084051456152476::1733064440::1733064525::1::::<><>::
-Azul pequena.png::CompressedTexture2D::6062920700112849864::1733064440::1733064525::1::::<><>::
+::res://sprites/potion/::1733071084
+Amarelo medio.png::CompressedTexture2D::8869015971262624095::1733071084::1733071224::1::::<><>::
+Amarelo pequeno.png::CompressedTexture2D::5145543662217006436::1733071084::1733071224::1::::<><>::
+Amerelo grande.png::CompressedTexture2D::8584825882602528003::1733071084::1733071224::1::::<><>::
+Azul grande.png::CompressedTexture2D::2691348474285816353::1733071084::1733071224::1::::<><>::
+Azul media.png::CompressedTexture2D::2707084051456152476::1733071084::1733071224::1::::<><>::
+Azul pequena.png::CompressedTexture2D::6062920700112849864::1733071084::1733071224::1::::<><>::
 potion.png::CompressedTexture2D::4213995553558694665::1569088537::1733064172::1::::<><>::
-Rosa grande.png::CompressedTexture2D::1579317420826058959::1733064440::1733064525::1::::<><>::
-Rosa media.png::CompressedTexture2D::5895769993043408180::1733064440::1733064525::1::::<><>::
-Rosa pequeno.png::CompressedTexture2D::7620705117347808867::1733064440::1733064525::1::::<><>::
-Verde grande.png::CompressedTexture2D::1966122360659003996::1733064440::1733064524::1::::<><>::
-Verde media.png::CompressedTexture2D::2958941153716614920::1733064440::1733064524::1::::<><>::
-Verde pequena.png::CompressedTexture2D::5364532385761982340::1733064440::1733064524::1::::<><>::
-Vermelha grande.png::CompressedTexture2D::3297328866585997928::1733064440::1733064524::1::::<><>::
-Vermelha media.png::CompressedTexture2D::8337375390543348637::1733064440::1733064524::1::::<><>::
-Vermelha pequena.png::CompressedTexture2D::3925491874833584870::1733064440::1733064524::1::::<><>::
+Rosa grande.png::CompressedTexture2D::1579317420826058959::1733071084::1733071224::1::::<><>::
+Rosa media.png::CompressedTexture2D::5895769993043408180::1733071084::1733071224::1::::<><>::
+Rosa pequeno.png::CompressedTexture2D::7620705117347808867::1733071084::1733071224::1::::<><>::
+Verde grande.png::CompressedTexture2D::1966122360659003996::1733071084::1733071224::1::::<><>::
+Verde media.png::CompressedTexture2D::2958941153716614920::1733071084::1733071224::1::::<><>::
+Verde pequena.png::CompressedTexture2D::5364532385761982340::1733071084::1733071224::1::::<><>::
+Vermelha grande.png::CompressedTexture2D::3297328866585997928::1733071084::1733071224::1::::<><>::
+Vermelha media.png::CompressedTexture2D::8337375390543348637::1733071084::1733071224::1::::<><>::
+Vermelha pequena.png::CompressedTexture2D::3925491874833584870::1733071084::1733071224::1::::<><>::

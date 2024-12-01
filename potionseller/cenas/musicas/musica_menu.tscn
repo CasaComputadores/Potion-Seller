@@ -5,7 +5,7 @@
 [sub_resource type="GDScript" id="GDScript_dut07"]
 script/source = "extends Node
 
-var volume_value: float = -12 
+var volume_value: float = -10
 
 func set_volume():
 	var bgmusic_bus = AudioServer.get_bus_index(\"BGMusic\")
@@ -13,6 +13,7 @@ func set_volume():
 	AudioServer.set_bus_mute(bgmusic_bus, volume_value == -30)
 	
 func _ready() -> void:
+	#await get_tree().create_timer(3.0).timeout
 	var music_player = $\".\"
 	if music_player.stream and music_player.stream is AudioStream:
 		music_player.stream.set_loop(true)

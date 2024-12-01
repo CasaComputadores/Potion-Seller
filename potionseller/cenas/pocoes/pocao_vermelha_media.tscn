@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://kfax7obufd3x"]
 
-[ext_resource type="Texture2D" uid="uid://b1bj5kdt4r7ej" path="res://sprites/potion/potion.png" id="1_3o2bk"]
 [ext_resource type="Script" path="res://scripts/pocao_vermelha_media.gd" id="1_28bu4"]
+[ext_resource type="Texture2D" uid="uid://dq1xmb5jj15t6" path="res://sprites/potion/Vermelha media.png" id="2_7gc36"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w5mk3"]
 size = Vector2(20, 27)
@@ -11,8 +11,7 @@ scale = Vector2(4, 4)
 script = ExtResource("1_28bu4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_3o2bk")
-region_enabled = true
+texture = ExtResource("2_7gc36")
 region_rect = Rect2(37, 194, 20, 27)
 
 [node name="Area2D" type="Area2D" parent="Sprite2D" groups=["pocoes"]]

@@ -69,7 +69,7 @@ func pode_criar_ametista() -> bool:
 	return ametista_criadas < LIMITE
 
 func incrementar_ametista():
-	if pode_criar_flor():
+	if pode_criar_ametista():
 		ametista_criadas += 1
 
 func decrementar_ametista(quantidade):

@@ -13,3 +13,4 @@ res://scripts/caldeirao.gd
 res://cenas/bau.tscn
 res://scripts/jogo.gd
 res://scripts/Global.gd
+res://scripts/moedaLabel.gd

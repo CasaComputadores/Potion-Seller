@@ -1,6 +1,7 @@
+res://scripts
+res://fontes/pixeloid-font
 res://cenas/musicas
 res://musica
-res://scripts
 res://musica/music-loop-bundle-download_2024_q2
 res://musica/Pixel RPG Music Pack
 res://cenas
@@ -11,7 +12,6 @@ res://sprites/Personagem 3
 res://cenas/pocoes
 res://sprites/Fire_AnimatedPixel/Fire_AnimatedPixel
 res://sprites/Fundo
-res://fontes/pixeloid-font
 res://scripts/JOGO
 res://
 res://sprites/Personagem 2

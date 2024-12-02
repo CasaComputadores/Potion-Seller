@@ -15,7 +15,7 @@ var po_criadas: int = 0
 var npc = 0
 
 #moeda
-var contador_moeda = 0
+var contador_moeda = 10
 
 #pocao
 var contador_potion = 0

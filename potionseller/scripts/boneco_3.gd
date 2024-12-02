@@ -40,8 +40,15 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
 
-				# Posiciona a moeda com base na posição global convertida para o local do nó 'areaMoeda'
-				moeda.position = areaMoeda.global_position
+				# Definir um retângulo ao redor da área
+				var rect_size = Vector2(500, 100)  # Tamanho do retângulo (50x50 por exemplo)
+				var random_offset = Vector2(
+					randf_range(-rect_size.x / 2, rect_size.x / 2), 
+					randf_range(-rect_size.y / 2, rect_size.y / 2)
+				)
+				
+				# Posiciona a moeda em uma posição aleatória dentro do retângulo
+				moeda.position = areaMoeda.global_position + random_offset
 
 				# Adiciona a moeda diretamente à árvore de nós principal (ou qualquer nó desejado)
 				get_tree().root.add_child(moeda)  # Ou get_tree().current_scene.add_child(moeda) se preferir
@@ -52,7 +59,7 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				# Aguarda 1 segundo e depois remove o boneco
 				await get_tree().create_timer(1.0).timeout
 
-				Global.instantiate_random_scene(Global.cenaJogo, areaNPC)
+				Global.instantiate_random_scene(get_tree().root, areaNPC)
 
 				# Remove o boneco
 				queue_free()
@@ -65,6 +72,8 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				await get_tree().create_timer(0.3).timeout
 				
 				WrongSoundEffect.play()
+				
+				Global.contador_moeda -= 2
 
 				# Aguarda 1 segundo e depois remove o boneco
 				await get_tree().create_timer(0.7).timeout

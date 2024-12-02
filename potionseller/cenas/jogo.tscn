@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://kct206fg1f37"]
+[gd_scene load_steps=10 format=3 uid="uid://kct206fg1f37"]
 
 [ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cni4mpayauyn" path="res://cenas/bau.tscn" id="5_dliyo"]
 [ext_resource type="PackedScene" uid="uid://da06ejaopfdnw" path="res://cenas/item_slot.tscn" id="5_u0jws"]
 [ext_resource type="FontFile" uid="uid://cescu06r2nw5f" path="res://fontes/pixeloid-font/PixeloidMono-d94EV.ttf" id="9_6hty4"]
+[ext_resource type="Script" path="res://scripts/moedaLabel.gd" id="9_pqtka"]
 
 [node name="Jogo" type="Node2D"]
 position = Vector2(0, -1)
@@ -27,7 +28,7 @@ layout_mode = 2
 texture = ExtResource("3_ufj0j")
 
 [node name="Area2D" parent="MarginContainer" instance=ExtResource("5_dliyo")]
-position = Vector2(68, 1000)
+position = Vector2(76, 1000)
 
 [node name="Window" type="Window" parent="."]
 initial_position = 1
@@ -60,44 +61,37 @@ position = Vector2(1771, 947)
 position = Vector2(1768, 72)
 
 [node name="Area2D" type="Area2D" parent="."]
-position = Vector2(165, 812)
+position = Vector2(278, 816)
 
 [node name="AreaNPC" type="Area2D" parent="."]
 position = Vector2(272, 363)
 
 [node name="HUD" type="CanvasLayer" parent="."]
 
-[node name="Moeda" type="Label" parent="HUD"]
-anchors_preset = -1
-anchor_top = -0.00185185
-anchor_right = 0.00104167
-anchor_bottom = -0.00185185
-offset_left = 17.0
-offset_top = 912.0
-offset_right = 121.0
-offset_bottom = 951.0
-theme_override_fonts/font = ExtResource("9_6hty4")
-theme_override_font_sizes/font_size = 30
+[node name="Moeda" type="RichTextLabel" parent="HUD"]
+offset_left = 65.0
+offset_top = 918.0
+offset_right = 174.0
+offset_bottom = 1003.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_fonts/normal_font = ExtResource("9_6hty4")
+theme_override_font_sizes/normal_font_size = 30
 text = "0"
-horizontal_alignment = 1
-metadata/_edit_use_anchors_ = true
+script = ExtResource("9_pqtka")
+text_color = Color(1, 0, 0, 1)
+text_color2 = Color(1, 1, 1, 1)
 
 [node name="HUD2" type="CanvasLayer" parent="."]
 
-[node name="Ingredientes" type="Label" parent="HUD2"]
-anchors_preset = -1
-anchor_top = -0.00185185
-anchor_right = 0.00104167
-anchor_bottom = -0.00185185
-offset_left = 1717.0
-offset_top = 939.0
-offset_right = 1821.0
-offset_bottom = 978.0
-theme_override_fonts/font = ExtResource("9_6hty4")
-theme_override_font_sizes/font_size = 30
+[node name="Ingredientes" type="RichTextLabel" parent="HUD2"]
+offset_left = 1742.0
+offset_top = 928.0
+offset_right = 1842.0
+offset_bottom = 990.0
+theme_override_fonts/normal_font = ExtResource("9_6hty4")
+theme_override_font_sizes/normal_font_size = 30
 text = "0/3"
-horizontal_alignment = 1
-metadata/_edit_use_anchors_ = true
 
 [connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
 [connection signal="mouse_entered" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_mouse_entered"]

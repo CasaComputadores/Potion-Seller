@@ -20,6 +20,9 @@ var contador_moeda = 0
 #pocao
 var contador_potion = 0
 
+# máximo de 3 ingredientes no caldeirão
+var maxIngredientesCaldeirao = 0
+
 var musicaInicial = false
 var musicaInicialResetada = false
 

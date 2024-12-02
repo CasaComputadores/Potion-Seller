@@ -32,7 +32,7 @@ func _ready() -> void:
 		botao_criar = null
 
 func _on_area_entered(area: Area2D) -> void:
-	if Global.verifica_quantidade_pocao(): #verifica se a quantidade de poção pode 
+	if Global.verifica_quantidade_pocao() and Global.maxIngredientesCaldeirao < 3: #verifica se a quantidade de poção pode 
 		print("Objeto entrou:", area.name)
 		
 		if area.is_in_group("ingredientes"):
@@ -43,6 +43,7 @@ func _on_area_entered(area: Area2D) -> void:
 				var ingrediente_nome = parent.name
 				ingredientes_no_caldeirao.append(ingrediente_nome)
 				parent.queue_free()
+				Global.maxIngredientesCaldeirao += 1
 				DroparIngrediente.play()
 				print("Ingrediente armazenado:", ingrediente_nome)
 			if not botao_criar:
@@ -137,6 +138,7 @@ func _on_criar_pocao() -> void:
 			var instancia_pocao = pocao.instantiate()
 			instancia_pocao.global_position = self.global_position
 			get_tree().root.add_child(instancia_pocao)
+			Global.maxIngredientesCaldeirao = 0
 			print("Poção criada com sucesso!")
 		
 		for ingrediente in contagem:

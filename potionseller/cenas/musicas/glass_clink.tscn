@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8t7yqva81ec0"]
+
+[ext_resource type="AudioStream" uid="uid://c6qf5hf6j3s2b" path="res://musica/glass-clink-57538.ogg" id="1_56q58"]
+
+[node name="glassClink" type="AudioStreamPlayer"]
+stream = ExtResource("1_56q58")
+bus = &"SFX"

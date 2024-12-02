@@ -20,6 +20,8 @@ extends Area2D
 
 @export var botao_criar_scene: PackedScene
 
+@onready var glassClink = $glassClink
+
 var ingredientes_no_caldeirao: Array = []
 var botao_criar: Button
 
@@ -149,10 +151,10 @@ func _on_criar_pocao() -> void:
 						Global.decrementar_coracao(contagem[ingrediente])
 					"po_magico":
 						Global.decrementar_po(contagem[ingrediente])
-						
-				
+
 		ingredientes_no_caldeirao.clear()
 		if botao_criar:
+			glassClink.play()
 			botao_criar.queue_free()
 			botao_criar = null
 	else:

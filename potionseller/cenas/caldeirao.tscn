@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://cy04pep0kt4e1"]
+[gd_scene load_steps=21 format=3 uid="uid://cy04pep0kt4e1"]
 
 [ext_resource type="Texture2D" uid="uid://lq56p0e7x3ge" path="res://sprites/caldeirao.png" id="1_0mnng"]
 [ext_resource type="Script" path="res://scripts/caldeirao.gd" id="1_gwguk"]
@@ -18,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://b0swno47kchvs" path="res://cenas/pocoes/pocao_azul_pequeno.tscn" id="10_31p0a"]
 [ext_resource type="PackedScene" uid="uid://bjxofg6plcu8o" path="res://cenas/pocoes/pocao_amarela_media.tscn" id="11_0xvuc"]
 [ext_resource type="PackedScene" uid="uid://bhlpbrdxax45p" path="res://cenas/pocoes/pocao_amarela_pequena.tscn" id="11_k2h0n"]
+[ext_resource type="PackedScene" uid="uid://c8t7yqva81ec0" path="res://cenas/musicas/glass_clink.tscn" id="19_equbv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_p7x1r"]
 radius = 142.032
@@ -49,5 +50,7 @@ texture = ExtResource("1_0mnng")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -8)
 shape = SubResource("CircleShape2D_p7x1r")
+
+[node name="glassClink" parent="." instance=ExtResource("19_equbv")]
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]

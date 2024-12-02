@@ -1,10 +1,9 @@
-[gd_scene load_steps=10 format=3 uid="uid://kct206fg1f37"]
+[gd_scene load_steps=9 format=3 uid="uid://kct206fg1f37"]
 
 [ext_resource type="Script" path="res://scripts/jogo.gd" id="1_0diya"]
 [ext_resource type="Script" path="res://scripts/voltar_button.gd" id="2_w0e0k"]
 [ext_resource type="Texture2D" uid="uid://dvs220lrs2l1a" path="res://sprites/Fundo/Tela frente2.png" id="2_wl3pv"]
 [ext_resource type="Texture2D" uid="uid://p1ccgybgsi54" path="res://sprites/Fundo/Fundo tela atras.png" id="3_ufj0j"]
-[ext_resource type="PackedScene" uid="uid://55ny070r5pyj" path="res://cenas/npc/boneco_2.tscn" id="4_ggwoc"]
 [ext_resource type="PackedScene" uid="uid://cy04pep0kt4e1" path="res://cenas/caldeirao.tscn" id="4_pva1l"]
 [ext_resource type="PackedScene" uid="uid://cni4mpayauyn" path="res://cenas/bau.tscn" id="5_dliyo"]
 [ext_resource type="PackedScene" uid="uid://da06ejaopfdnw" path="res://cenas/item_slot.tscn" id="5_u0jws"]
@@ -26,9 +25,6 @@ texture = ExtResource("2_wl3pv")
 z_index = -2
 layout_mode = 2
 texture = ExtResource("3_ufj0j")
-
-[node name="boneco2" parent="MarginContainer" instance=ExtResource("4_ggwoc")]
-position = Vector2(274, 363)
 
 [node name="Area2D" parent="MarginContainer" instance=ExtResource("5_dliyo")]
 position = Vector2(68, 1000)
@@ -89,3 +85,4 @@ metadata/_edit_use_anchors_ = true
 [connection signal="close_requested" from="Window" to="." method="_on_window_close_requested"]
 [connection signal="mouse_entered" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_mouse_entered"]
 [connection signal="pressed" from="Window/Camera2D/VoltarButton" to="Window/Camera2D/VoltarButton" method="_on_pressed"]
+[connection signal="tirar_boneco_signal" from="Window/Camera2D/VoltarButton" to="." method="_on_voltar_button_tirar_boneco_signal"]

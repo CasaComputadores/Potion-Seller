@@ -4,10 +4,15 @@ extends Node2D
 @onready var areaNPC = $"/root/Jogo/AreaNPC"
 @onready var balao = $BalaoPocao
 @export var moedaDourada: PackedScene
+signal sair
 
 func _ready():
 	balao.show_balloon()
 	print("chamando o balao")
+
+func _on_remover_npc():
+	print("SAI FORA MEU")
+	queue_free()
 
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	print("Objeto entrou:", area.name)
@@ -60,3 +65,6 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 
 				# Remove o boneco
 				queue_free()
+
+func _on_sair() -> void:
+	queue_free()

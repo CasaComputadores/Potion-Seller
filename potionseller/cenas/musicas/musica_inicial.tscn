@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl212roon8cpx"]
+
+[ext_resource type="AudioStream" uid="uid://qonbbnnhcora" path="res://musica/Ye-Old-Synthesizer.ogg" id="1_ftay2"]
+[ext_resource type="Script" path="res://scripts/musica_inicial.gd" id="2_0wp5a"]
+
+[node name="MusicaInicial" type="AudioStreamPlayer"]
+stream = ExtResource("1_ftay2")
+bus = &"BGMusic"
+script = ExtResource("2_0wp5a")

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://2r6hledctap5"]
+
+[ext_resource type="AudioStream" uid="uid://bpgfu3y8eg4xd" path="res://musica/cave-monster-43826.ogg" id="1_o2jt2"]
+
+[node name="caveSound" type="AudioStreamPlayer"]
+stream = ExtResource("1_o2jt2")
+bus = &"SFX"

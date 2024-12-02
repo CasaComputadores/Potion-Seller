@@ -1,7 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://dykgsph0fwuk6"]
 
 [ext_resource type="Texture2D" uid="uid://dk1pehd2vs7r" path="res://sprites/moeda.png" id="1_ym1su"]
-[ext_resource type="Script" path="res://sprites/area_2d.gd" id="2_l0yt5"]
+[ext_resource type="Script" path="res://scripts/area_2d.gd" id="2_l0yt5"]
+
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i3l8l"]
 radius = 76.7391

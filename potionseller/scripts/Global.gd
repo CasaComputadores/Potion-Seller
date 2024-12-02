@@ -11,14 +11,19 @@ var ametista_criadas: int = 0
 var coracao_criadas: int = 0
 var po_criadas: int = 0
 
+#npcs
+var npc = 0
+
 #moeda
 var contador_moeda = 0
 
 #pocao
 var contador_potion = 0
 
-#erva
+var musicaInicial = false
+var musicaInicialResetada = false
 
+#erva
 func resetar_erva():
 	ervas_criadas = 0
 

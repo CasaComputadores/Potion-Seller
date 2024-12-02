@@ -13,11 +13,17 @@ config_version=5
 config/name="PotionSeller"
 run/main_scene="res://cenas/menu.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://sprites/logo potion seller.png"
+boot_splash/fullsize=false
+boot_splash/minimum_display_time=1500
 
 [autoload]
 
-MusicaMenu="*res://cenas/musicas/musica_menu.tscn"
 Global="*res://scripts/Global.gd"
+TransitionScreen="*res://cenas/transition_screen.tscn"
+MusicaMenu="*res://cenas/musicas/musica_menu.tscn"
+MusicaInicial="*res://cenas/musicas/musica_inicial.tscn"
 
 [display]
 

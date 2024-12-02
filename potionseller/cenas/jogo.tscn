@@ -86,9 +86,9 @@ text_color2 = Color(1, 1, 1, 1)
 
 [node name="Ingredientes" type="RichTextLabel" parent="HUD2"]
 offset_left = 1742.0
-offset_top = 928.0
+offset_top = 850.0
 offset_right = 1842.0
-offset_bottom = 990.0
+offset_bottom = 912.0
 theme_override_fonts/normal_font = ExtResource("9_6hty4")
 theme_override_font_sizes/normal_font_size = 30
 text = "0/3"

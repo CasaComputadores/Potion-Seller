@@ -138,7 +138,10 @@ func _on_criar_pocao() -> void:
 			var instancia_pocao = pocao.instantiate()
 			instancia_pocao.global_position = self.global_position
 			get_tree().root.add_child(instancia_pocao)
+			$"../HUD2/Ingredientes".visible = false
+			Global.labelIngredientesCaldeirao = false
 			Global.maxIngredientesCaldeirao = 0
+			
 			print("Poção criada com sucesso!")
 		
 		for ingrediente in contagem:

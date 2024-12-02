@@ -23,7 +23,7 @@ func _process(delta: float) -> void:
 		escmenu.show()
 	hud.text = "%d" % Global.contador_moeda
 	hudIngredientes.text = "%d/3" % Global.maxIngredientesCaldeirao
-
+	$HUD2/Ingredientes.visible = Global.labelIngredientesCaldeirao
 func desinstanciarNPC():
 	# Verifica os filhos e identifica qual boneco foi instanciado
 	for child in get_children():

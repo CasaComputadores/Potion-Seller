@@ -1,28 +1,27 @@
 [gd_scene load_steps=3 format=3 uid="uid://d0jyk4bew4foc"]
 
-[ext_resource type="VideoStream" path="res://sprites/videoIntro.ogv" id="1_shsa0"]
 [ext_resource type="Script" path="res://scripts/intro_video.gd" id="1_yu3gp"]
+[ext_resource type="VideoStream" path="res://CASA-ABERTURA.ogv" id="2_xcs1j"]
 
 [node name="IntroVideo" type="Node2D"]
+position = Vector2(2, 0)
 script = ExtResource("1_yu3gp")
 
 [node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -504.0
-offset_top = -313.0
-offset_right = 2041.0
-offset_bottom = 1037.0
+offset_left = -271.0
+offset_top = -158.0
+offset_right = 2274.0
+offset_bottom = 1192.0
 color = Color(0, 0, 0, 1)
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
-offset_left = 5.0
-offset_top = 5.0
-offset_right = 1935.0
-offset_bottom = 1080.0
-stream = ExtResource("1_shsa0")
+offset_right = 1914.0
+offset_bottom = 1088.0
+stream = ExtResource("2_xcs1j")
 autoplay = true
+expand = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(325, 244)
-zoom = Vector2(3, 3)
+position = Vector2(958, 540)
 
 [connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

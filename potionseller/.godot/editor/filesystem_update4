@@ -10,3 +10,9 @@ res://cenas/musicas/dropar_ingrediente.tscn
 res://cenas/bau.tscn
 res://scripts/intro_video.gd
 res://cenas/pocoes/pocao_amarela_media.tscn
+res://scripts/caldeirao.gd
+res://scripts/Global.gd
+res://scripts/boneco_1.gd
+res://scripts/boneco_2.gd
+res://scripts/boneco_3.gd
+res://scripts/jogo.gd

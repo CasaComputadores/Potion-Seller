@@ -28,6 +28,8 @@ var musicaInicialResetada = false
 
 var cenaJogo = null
 
+var labelIngredientesCaldeirao = true
+
 #erva
 func resetar_erva():
 	ervas_criadas = 0

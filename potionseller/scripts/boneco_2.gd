@@ -63,6 +63,8 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 
 				# Remove o boneco
 				queue_free()
+				
+				Global.labelIngredientesCaldeirao = true
 
 			else:
 				print("pocao errada bosta")
@@ -82,6 +84,8 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 
 				# Remove o boneco
 				queue_free()
+				
+				Global.labelIngredientesCaldeirao = true
 
 
 func _on_sair() -> void:

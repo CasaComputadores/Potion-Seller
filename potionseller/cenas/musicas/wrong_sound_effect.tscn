@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://co1ypowofi40q"]
+
+[ext_resource type="AudioStream" uid="uid://cukm1jdt0t1p5" path="res://musica/wrong-47985.mp3" id="1_ik16x"]
+
+[node name="wrongSoundEffect" type="AudioStreamPlayer"]
+stream = ExtResource("1_ik16x")
+bus = &"SFX"

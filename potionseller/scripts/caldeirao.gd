@@ -43,6 +43,7 @@ func _on_area_entered(area: Area2D) -> void:
 				var ingrediente_nome = parent.name
 				ingredientes_no_caldeirao.append(ingrediente_nome)
 				parent.queue_free()
+				DroparIngrediente.play()
 				print("Ingrediente armazenado:", ingrediente_nome)
 			if not botao_criar:
 				gerar_botao_criar()

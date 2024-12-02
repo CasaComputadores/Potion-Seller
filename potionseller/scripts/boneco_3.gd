@@ -31,6 +31,11 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 			# Comparar a textura entregue com a selecionada
 			if delivered_texture == parent_texture:
 				print("Poção correta!")
+				
+				parent.queue_free()
+				print("Poção Vendida e moeda criada:", parent.name)
+				
+				await get_tree().create_timer(0.5).timeout
 
 				var moeda = moedaDourada.instantiate()
 				print("Moeda instanciada:", moeda)
@@ -43,8 +48,6 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				SomMoeda.play()
 
 				print("Moeda posicionada em:", moeda.position)
-				parent.queue_free()
-				print("Poção Vendida e moeda criada:", parent.name)
 
 				# Aguarda 1 segundo e depois remove o boneco
 				await get_tree().create_timer(1.0).timeout
@@ -58,9 +61,13 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				print("pocao errada bosta")
 				
 				parent.queue_free()
+				
+				await get_tree().create_timer(0.3).timeout
+				
+				WrongSoundEffect.play()
 
 				# Aguarda 1 segundo e depois remove o boneco
-				await get_tree().create_timer(1.0).timeout
+				await get_tree().create_timer(0.7).timeout
 
 				Global.instantiate_random_scene(get_tree().root, areaNPC)
 				print("AAAAAAAAA", get_tree().root, "AA" ,areaNPC)

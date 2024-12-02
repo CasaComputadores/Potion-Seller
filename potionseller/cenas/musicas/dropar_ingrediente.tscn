@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bo702fwpt5r3t"]
+
+[ext_resource type="AudioStream" uid="uid://6dnthkhyl4pb" path="res://musica/droparIngrediente.wav" id="1_t4wo5"]
+
+[node name="droparIngrediente" type="AudioStreamPlayer"]
+stream = ExtResource("1_t4wo5")
+bus = &"SFX"

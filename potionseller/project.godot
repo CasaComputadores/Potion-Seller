@@ -24,6 +24,7 @@ Global="*res://scripts/Global.gd"
 TransitionScreen="*res://cenas/transition_screen.tscn"
 MusicaMenu="*res://cenas/musicas/musica_menu.tscn"
 MusicaInicial="*res://cenas/musicas/musica_inicial.tscn"
+SomMoeda="*res://cenas/musicas/som_moeda.tscn"
 
 [display]
 

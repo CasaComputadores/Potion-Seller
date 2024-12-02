@@ -23,6 +23,8 @@ var contador_potion = 0
 var musicaInicial = false
 var musicaInicialResetada = false
 
+var cenaJogo = null
+
 #erva
 func resetar_erva():
 	ervas_criadas = 0
@@ -123,7 +125,7 @@ func instantiate_random_scene(parent_node: Node, areaNPC: Area2D):
 		
 		# Instancia a cena no nó pai especificado
 		parent_node.add_child(scene)
-		print("boneco random add")
+		print("boneco random add no parent node: ", parent_node)
 		return scene
 	else:
 		print("O array de cenas está vazio.")

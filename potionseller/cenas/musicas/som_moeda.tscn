@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b1kkucpfworw2"]
+
+[ext_resource type="AudioStream" uid="uid://dhl676x7xwpyv" path="res://musica/mixkit-money-bag-drop-1989.wav" id="1_824f5"]
+
+[node name="somMoeda" type="AudioStreamPlayer"]
+stream = ExtResource("1_824f5")
+bus = &"SFX"

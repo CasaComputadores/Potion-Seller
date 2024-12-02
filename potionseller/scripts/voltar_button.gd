@@ -15,8 +15,11 @@ func _on_pressed() -> void:
 	add_child(click_sound)
 	click_sound.play()
 	#tirar_boneco_signal.emit()
+	var cenaJogo = get_parent().get_parent().get_parent()
+	cenaJogo.desinstanciarNPC()
 	MusicaMenu.stop()
 	Global.musicaInicialResetada = false
+	Global.npc = 0
 	get_tree().change_scene_to_file("res://cenas/menu.tscn")
 
 func _on_mouse_entered() -> void:

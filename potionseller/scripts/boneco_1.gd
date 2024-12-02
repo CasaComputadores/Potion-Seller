@@ -40,6 +40,7 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 
 				# Adiciona a moeda diretamente à árvore de nós principal (ou qualquer nó desejado)
 				get_tree().root.add_child(moeda)  # Ou get_tree().current_scene.add_child(moeda) se preferir
+				SomMoeda.play()
 
 				print("Moeda posicionada em:", moeda.position)
 				parent.queue_free()
@@ -61,7 +62,7 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 				# Aguarda 1 segundo e depois remove o boneco
 				await get_tree().create_timer(1.0).timeout
 
-				Global.instantiate_random_scene(get_tree().root, areaNPC)
+				Global.instantiate_random_scene(Global.cenaJogo, areaNPC)
 
 				# Remove o boneco
 				queue_free()

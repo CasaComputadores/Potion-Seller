@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://dmuppdth8okav"]
+[gd_scene load_steps=12 format=3 uid="uid://dmuppdth8okav"]
 
 [ext_resource type="Texture2D" uid="uid://blrql0jfus7lj" path="res://sprites/Personagem 3/Skelton.png" id="1_1c3fa"]
 [ext_resource type="Script" path="res://scripts/boneco_3.gd" id="1_ql8ao"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_xpk5e"]
 [ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="4_d5kta"]
+[ext_resource type="PackedScene" uid="uid://b1kkucpfworw2" path="res://cenas/musicas/som_moeda.tscn" id="5_am5h6"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dlsuc"]
 atlas = ExtResource("1_1c3fa")
@@ -65,6 +66,8 @@ shape = SubResource("CapsuleShape2D_4ssy8")
 
 [node name="BalaoPocao" parent="." instance=ExtResource("4_d5kta")]
 position = Vector2(-14.2727, -20)
+
+[node name="somMoeda" parent="." instance=ExtResource("5_am5h6")]
 
 [connection signal="sair" from="." to="." method="_on_sair"]
 [connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

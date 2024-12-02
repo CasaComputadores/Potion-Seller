@@ -29,7 +29,7 @@ func desinstanciarNPC():
 	for child in get_children():
 		print("coisa: ", child.get_parent())
 		print("quem é: ", child)
-		if child.name == "boneco1" or child.name == "boneco2" or child.name == "boneco3":
+		if child.name == "boneco1" or child.name == "boneco2" or child.name == "boneco3" or child.name == "boneco4" or child.name == "boneco5" or child.name == "boneco6":
 			boneco_instanciado = child
 			print("boneco vagabundo: ", boneco_instanciado)
 			break

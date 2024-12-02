@@ -111,7 +111,10 @@ func decrementar_po(quantidade):
 var bonecos = [
 	"res://cenas/npc/boneco_1.tscn",
 	"res://cenas/npc/boneco_2.tscn",
-	"res://cenas/npc/boneco_3.tscn"
+	"res://cenas/npc/boneco_3.tscn",
+	"res://cenas/npc/boneco_4.tscn",
+	"res://cenas/npc/boneco_5.tscn",
+	"res://cenas/npc/boneco6.tscn"
 ]
 
 # Função para instanciar uma boneco aleatório

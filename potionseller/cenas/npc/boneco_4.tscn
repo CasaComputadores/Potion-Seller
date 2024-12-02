@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://bw4r7hko10saf"]
+
+[ext_resource type="Script" path="res://scripts/boneco_4.gd" id="1_b2ubp"]
+[ext_resource type="Texture2D" uid="uid://dwnvtojiyqvvg" path="res://sprites/Personagem 4/Personagem 5.png" id="1_wqqae"]
+[ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_4qu1h"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="3_bn3mf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vhjx4"]
+atlas = ExtResource("1_wqqae")
+region = Rect2(0, 0, 1000, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_leag3"]
+atlas = ExtResource("1_wqqae")
+region = Rect2(1000, 0, 1000, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_66exi"]
+atlas = ExtResource("1_wqqae")
+region = Rect2(2000, 0, 1000, 1000)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_srm74"]
+atlas = ExtResource("1_wqqae")
+region = Rect2(3000, 0, 1000, 1000)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fac71"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vhjx4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_leag3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_66exi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_srm74")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4sxly"]
+radius = 323.0
+height = 892.0
+
+[node name="boneco4" type="Node2D"]
+z_index = -1
+script = ExtResource("1_b2ubp")
+moedaDourada = ExtResource("2_4qu1h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(39, 94)
+scale = Vector2(0.55, 0.55)
+sprite_frames = SubResource("SpriteFrames_fac71")
+autoplay = "default"
+frame_progress = 0.946684
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
+position = Vector2(2, 52)
+shape = SubResource("CapsuleShape2D_4sxly")
+
+[node name="BalaoPocao" parent="." instance=ExtResource("3_bn3mf")]
+position = Vector2(-126, -119)
+scale = Vector2(5.5, 5.5)
+
+[connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://icqtjv65gxy1"]
+
+[ext_resource type="Script" path="res://scripts/boneco_6.gd" id="1_jlpum"]
+[ext_resource type="Texture2D" uid="uid://cj67l3xf0ec8p" path="res://sprites/Personagem 4/personagem 4.png" id="2_l4rdx"]
+[ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_w68ly"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="3_oqvd8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ev0rj"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vrk0r"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hccho"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ajx82"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj55c"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4elpp"]
+atlas = ExtResource("2_l4rdx")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lban6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ev0rj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vrk0r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hccho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ajx82")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj55c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4elpp")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8yfvn"]
+size = Vector2(23, 38.075)
+
+[node name="boneco6" type="Node2D"]
+z_index = -1
+scale = Vector2(11, 11)
+script = ExtResource("1_jlpum")
+moedaDourada = ExtResource("2_w68ly")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = -1
+position = Vector2(1.6, 3.6)
+sprite_frames = SubResource("SpriteFrames_lban6")
+autoplay = "default"
+frame_progress = 0.521622
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
+position = Vector2(-0.1, 13.4375)
+shape = SubResource("RectangleShape2D_8yfvn")
+
+[node name="BalaoPocao" parent="." instance=ExtResource("3_oqvd8")]
+position = Vector2(-11, -15)
+
+[connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

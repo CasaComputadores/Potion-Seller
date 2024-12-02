@@ -1,0 +1,103 @@
+[gd_scene load_steps=16 format=3 uid="uid://b4s2ierjxydv0"]
+
+[ext_resource type="Script" path="res://scripts/boneco_5.gd" id="1_hsai8"]
+[ext_resource type="Texture2D" uid="uid://bv0u7rdthcmfo" path="res://sprites/Personagem 4/personagem 6.png" id="1_w61fc"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="2_tkbu1"]
+[ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_xdfu8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lreqs"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ajtu"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dvkty"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7e1i8"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4oe2n"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kdxui"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uxjxh"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3qi0x"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8obit"]
+atlas = ExtResource("1_w61fc")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m5i1d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lreqs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ajtu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dvkty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7e1i8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4oe2n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kdxui")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uxjxh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3qi0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8obit")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l2ojy"]
+size = Vector2(17, 50.15)
+
+[node name="boneco5" type="Node2D"]
+scale = Vector2(10, 10)
+script = ExtResource("1_hsai8")
+moedaDourada = ExtResource("2_xdfu8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = -1
+position = Vector2(1.6, 3.6)
+sprite_frames = SubResource("SpriteFrames_m5i1d")
+autoplay = "default"
+frame_progress = 0.796395
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D"]
+position = Vector2(0.9, 5.4)
+shape = SubResource("RectangleShape2D_l2ojy")
+
+[node name="BalaoPocao" parent="." instance=ExtResource("2_tkbu1")]
+position = Vector2(-11.8182, -21.4545)
+
+[connection signal="area_entered" from="AnimatedSprite2D/Area2D" to="." method="_on_area_2d_area_entered"]

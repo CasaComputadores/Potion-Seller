@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxsl85xs7yolw"]
+
+[ext_resource type="PackedScene" uid="uid://bd8cleuycjsxm" path="res://cenas/voltar_button.tscn" id="1_g8pfn"]
+
+[node name="Window" type="Window"]
+auto_translate_mode = 1
+disable_3d = true
+use_xr = true
+own_world_3d = true
+transparent_bg = true
+snap_2d_transforms_to_pixel = true
+snap_2d_vertices_to_pixel = true
+initial_position = 1
+size = Vector2i(350, 200)
+borderless = true
+
+[node name="VoltarButton" parent="." instance=ExtResource("1_g8pfn")]
+offset_left = -298.0
+offset_top = -129.0
+offset_right = -48.0
+offset_bottom = -65.0
+
+[node name="Camera2D" type="Camera2D" parent="."]

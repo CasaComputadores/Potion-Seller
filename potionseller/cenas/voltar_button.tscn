@@ -1,0 +1,47 @@
+[gd_scene load_steps=10 format=3 uid="uid://bd8cleuycjsxm"]
+
+[ext_resource type="Texture2D" uid="uid://c04r60vtp6fqa" path="res://sprites/Botao voltar.png" id="1_d02qk"]
+[ext_resource type="Script" path="res://scripts/voltar_button.gd" id="1_joyby"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_diaqq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_b35bq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w8iyu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pb1ei"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cnvwu"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6nt7j"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_l2kep"]
+
+[node name="VoltarButton" type="Button"]
+custom_minimum_size = Vector2(250, 40)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -123.0
+offset_top = -29.0
+offset_right = 127.0
+offset_bottom = 35.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/focus = SubResource("StyleBoxEmpty_diaqq")
+theme_override_styles/disabled_mirrored = SubResource("StyleBoxEmpty_b35bq")
+theme_override_styles/disabled = SubResource("StyleBoxEmpty_w8iyu")
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxEmpty_pb1ei")
+theme_override_styles/hover_pressed = SubResource("StyleBoxEmpty_cnvwu")
+theme_override_styles/hover_mirrored = SubResource("StyleBoxEmpty_6nt7j")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_l2kep")
+icon = ExtResource("1_d02qk")
+flat = true
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("1_joyby")
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,3 +1,7 @@
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+Sprite2D
 VideoStreamPlayer
 ColorRect
 Timer
@@ -8,7 +12,3 @@ Button
 Node
 AnimationPlayer
 CanvasLayer
-Sprite2D
-CollisionShape2D
-Area2D
-AnimatedSprite2D

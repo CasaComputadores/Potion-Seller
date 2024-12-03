@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/boneco_6.gd" id="1_jlpum"]
 [ext_resource type="Texture2D" uid="uid://cj67l3xf0ec8p" path="res://sprites/Personagem 4/personagem 4.png" id="2_l4rdx"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_w68ly"]
-[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="3_oqvd8"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://musica/balao_pocao.tscn" id="3_oqvd8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ev0rj"]
 atlas = ExtResource("2_l4rdx")

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/boneco_5.gd" id="1_hsai8"]
 [ext_resource type="Texture2D" uid="uid://bv0u7rdthcmfo" path="res://sprites/Personagem 4/personagem 6.png" id="1_w61fc"]
-[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="2_tkbu1"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://musica/balao_pocao.tscn" id="2_tkbu1"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_xdfu8"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lreqs"]

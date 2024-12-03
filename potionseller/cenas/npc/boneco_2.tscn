@@ -4,8 +4,9 @@
 [ext_resource type="Script" path="res://scripts/boneco_2.gd" id="1_n0sev"]
 [ext_resource type="PackedScene" uid="uid://dykgsph0fwuk6" path="res://cenas/moeda.tscn" id="2_12byl"]
 [ext_resource type="Texture2D" uid="uid://dajs5tbws8kg2" path="res://sprites/Personagem 2/pixil-frame-1.png" id="2_bit8b"]
-[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://cenas/balao_pocao.tscn" id="3_er8lh"]
+[ext_resource type="PackedScene" uid="uid://dttwpqnfhjfpt" path="res://musica/balao_pocao.tscn" id="3_er8lh"]
 [ext_resource type="PackedScene" uid="uid://b1kkucpfworw2" path="res://cenas/musicas/som_moeda.tscn" id="6_3bmla"]
+
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_s3nho"]
 animations = [{

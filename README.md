@@ -3,7 +3,7 @@ Este é um repositório para o projeto final da disciplina de programação para
 
 ## Integrantes do projeto:
 
-Iago Cerqueira Freitas
-João Vitor da Silva Ferreira
-Luís Gustavo Moraes Campos
-Marcos André da Silva Malta
+#### Iago Cerqueira Freitas
+#### João Vitor da Silva Ferreira
+#### Luís Gustavo Moraes Campos
+#### Marcos André da Silva Malta
